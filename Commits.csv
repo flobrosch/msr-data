@@ -1,0 +1,2814 @@
+1,0e166c04eb66137bc2b8ed69388f3fc620298e4d,1,1,1,"2014-08-30 22:35:52","Add support for unowned/weak array elements
+"
+2,de2eb894a54313baf027c54a77a7c5c679162f37,1,1,1,"2014-08-30 22:34:56","drivers: Mark arrays as unowned instead of weak
+"
+3,300e643ce781132b7276962b1a8223b3ebde5fde,1,1,1,"2014-08-30 19:07:46","ctypresolver: signals: register default implementations
+"
+4,eee27a89faa533249f7b3aad7af23c0fd61dfc6e,1,1,1,"2014-08-30 18:16:12","signals: collect default implementations
+"
+5,afb7c165c79a7ed483b1871c1fb4601ce07b4918,1,1,1,"2014-08-29 14:58:08","embedded: Fix check() for relative paths
+"
+6,c0adeabd80460d704d832b12ddc8b694ce4e52ea,1,1,1,"2014-08-27 18:47:12","doap++
+"
+7,2dc8e00ddfea221e5592d0e7cfbf0cbe1c031d57,1,1,1,"2014-08-26 03:46:09","gir-importer: docbook: process all <doc-* tags
+"
+8,faeaecd49a7c17ec7631cec7a859933976ed7068,1,1,1,"2014-08-26 02:48:28","gir: ignore type struct docs
+"
+9,8c9507ec33019b88dd43ab47e1bd50d22332740b,1,1,1,"2014-08-26 02:03:43","girmetadata: allow to override <ONLINE>
+"
+10,37819b1b6409eb7cbaa96366bb91f6557f821b11,1,1,1,"2014-08-26 01:45:24","gir-importer: docbook: resolve internal links
+"
+11,0c5997b20245bf1ee179ca09893947d5f82a4620,1,1,1,"2014-08-25 21:58:09","gir-importer: markdown: resolve internal links
+"
+12,58e527fbe2020611a1f2596d5cffe8ad4a0cc240,1,1,1,"2014-08-23 20:09:08","Allow to inherit from imported docs
+"
+13,aa0fa2da0f5e0b1ab6ace926866342b803504941,1,1,1,"2014-08-23 07:57:02","html: add <meta charset=""UTF-8""/>
+"
+14,89ecb6a91b5bfbe7d1fbf7703b09519079bd6a33,1,1,1,"2014-08-23 06:21:11","gir-importer: skip <union> elements without ctype-attributes
+"
+15,5257a46ff98a481641a7c9b86e9c4e6dd2981632,1,1,1,"2014-08-23 04:26:59","Split process-comments into parse and check runs
+"
+16,a4ea5ec772783547025169e51f3471b728bcf881,1,1,1,"2014-08-21 02:59:13","ctyperesolver, virtual signals: register function pointer names
+"
+17,221e57d0dc01fe95309987db0e1b5f8264b0c85a,1,1,1,"2014-08-21 01:01:17","docbook: improve implicit parameter handling
+"
+18,a03ba9564082f08908fba57932b6923ece2ee169,1,1,1,"2014-08-20 21:02:23","Improve handling for c::this
+"
+19,9ad12d9f43bfde5e0dbe836cac76a3d00fefc82d,1,1,1,"2014-08-20 03:15:27","docbook-parser: Accept symbols with trailing 's'
+"
+20,0a6b2c11738cb54c89771c6d663bd4bfb71511a8,1,1,1,"2014-08-20 02:31:00","Improve CTypeResolver for virtual/abstract methods
+"
+21,30c774c06fa73105ee30032a4f967dce95b55f1f,1,1,1,"2014-08-20 00:36:16","gir-importer: add support for markdown
+"
+22,98e3eb8204423d1e5ff8fc49230c52273ac8f5b4,1,1,1,"2013-09-24 00:59:37","devhelp: Generate better keywords
+"
+23,affd19ae7974c17050377e1f9308e4d11a6e4beb,1,1,1,"2013-09-24 00:52:12","devhelp: Add missing keywords
+"
+24,9e4c48a9368e640b1c26cf9b7affc403acabd8bf,1,1,1,"2013-09-15 22:43:55","basic doclet: Add ""wiki-index-name""
+
+Used by valadoc.org
+"
+25,7b22bc146b318790552aa8ec1ece25a3a06d1316,1,1,1,"2013-09-11 00:43:43","Add support for cgraphs
+
+Based on patch by Richard Schwarting
+
+Fixes bug 703688.
+"
+26,6b8099e8537df5f2beff8971fbe4d61a05b38c54,1,1,1,"2013-08-27 17:10:35","Importer: Resolve c::*_finish methods
+"
+27,2a8739c8bc4dd1998fd000033d9ef0d3819eff76,1,1,1,"2013-08-27 14:40:44","gir-importer: Ignore <annotation> tags
+"
+28,5dde44de84cc90ad8f8fe554deaa64597e54ab64,1,1,1,"2013-03-19 21:49:46","gir-importer: Add support for <instance-parameter>
+"
+29,06ef3883f57116596653cf68e7728e0d695e45b0,1,1,1,"2013-02-07 21:42:03","coding style changes
+"
+30,985c5ddb6b28fa38cabe82581e7c47a51b62f79a,1,1,1,"2013-02-07 19:41:17","gtkdoc: Document implicit struct functions
+"
+31,06ae95a8dc8d497e4bc6e8af9dc2129555050638,1,1,1,"2013-02-07 19:13:11","libvaladoc: Add Struct.copy_function_cname, Struct.destroy_function_cname
+"
+32,394e001e16e62427487937356967f2e67a03eefb,1,1,1,"2013-02-07 06:43:31","gtkdoc: Avoid warnings for undocumented parameters
+"
+33,78f50be5f2a781904406eeb45b6bf9dc1ea6221f,1,1,1,"2013-02-07 05:17:30","gtkdoc: Improve docs for generics
+"
+34,7679e6c2affe21f5179dbd1bedaac4cfa0b00436,1,1,1,"2013-02-07 02:13:15","0.20.x: Add support for [GenericAccessors]
+"
+35,83b7c4d75f2166f196b047398588bd7c1eb002a7,1,1,1,"2013-02-07 02:12:29","0.18.x: Add support for [GenericAccessors]
+"
+36,2dc9f055ecb49392e5502e8d6b30c28f65c06c22,1,1,1,"2013-02-07 00:30:06","0.14.x: Fix TypeParameter.base
+"
+37,2815cc627460edad383139d3e26a74b4a0ecf7ee,1,1,1,"2013-02-07 00:29:03","0.16.x: Fix TypeParameter.base
+"
+38,4b75bb91694219b73e4474b54d3a420ff23b7c3b,1,1,1,"2013-02-07 00:27:34","0.18.x: Fix TypeParameter.base
+"
+39,8ec73ad2cf0749f5e503787c63f160f3cea2964c,1,1,1,"2013-02-07 00:26:12","0.20.x: Fix TypeParameter.base
+"
+40,bf025c0972c742d450442630739801b8e4c6a163,1,1,1,"2013-02-05 03:38:48","gtkdoc: Improve documentation for _get and _set
+"
+41,df9357f508feeff9e7730a7124b7d700829a5951,1,1,1,"2012-11-30 00:50:10","libvaladoc: Use --api-version instead of --version
+"
+42,cd519e56eee4a0503bf696318dc09f6a745e7c37,1,1,1,"2012-11-28 18:55:30","driver: Add support for vala-0.20
+"
+43,a56fcb77087725fa412b53ffe92d441acca113cd,1,1,1,"2012-11-28 01:46:47","Fix make check for older valac versions
+"
+44,8a670906e9e04b883afeca949a6791fa02dc9058,1,1,1,"2012-11-27 18:23:39","gee-0.8
+"
+45,78cd19e253c72260935fc04610f7f22784c957a3,1,1,1,"2012-11-27 00:49:52","gtkdoc-scanner: Add support for &nbsp;, &quot;, &apos;
+"
+46,67f9cdb3f427304d6a464dd2007cc4ff0be2f672,1,1,1,"2012-11-25 21:43:02","configure.in -> configure.ac
+"
+47,538aa3297e6f491578c57bf73287056400dca6aa,1,1,1,"2012-11-19 01:31:52","Fix generic-api-test (out -> @out)
+"
+48,5a00916143eb6531f8fd848727d70b87edb21f60,1,1,1,"2012-11-19 00:59:08","libvaladoc: Avoid multiple imports
+"
+49,c602f64b1d3443855fc0923a571bbdaf8b43e1f0,1,1,1,"2012-11-17 12:56:58","libvaladoc: .valadoc-importer: Fix encoding issues
+"
+50,9cb89acac0adf0ee111ffc6e52115966c549690a,1,1,1,"2012-11-17 03:50:16","libvaladoc/content: SourceCode: Strip leading and trailing empty lines
+"
+51,ce8c758c79ea399fd6e3d70f8a24586fa67ea50c,1,1,1,"2012-11-16 19:49:01","libvaladoc: .valadoc-importer: Add support for ::append and ::prepend
+"
+52,0a0f2de7b53e3a8f2c68dcacfb8a6602f5b4d10b,1,1,1,"2012-11-01 01:46:20","importer: gir: Process callback comments
+"
+53,1e8e06bb1654f1a48a5055cfbbb3696ccc5122e4,1,1,1,"2012-10-17 20:23:02","libvaladoc: is_browsale: check parents
+"
+54,028a40aed648eeabda8a95a9bbbb06b98c3fa21e,1,1,1,"2012-10-15 04:49:00","libvaladoc: Mark TypeParameter as unbrowsable
+"
+55,6d999ad7427d475b1a969709e843dc33c058262c,1,1,1,"2012-10-15 03:58:31","libvaladoc: Escape names if necessary
+"
+56,fdada53286ea9ae5128b2bb330762f1e051d4a5a,1,1,1,"2012-10-14 00:59:23","doclet/gtkdoc: Escape text and source code
+"
+57,4c4fa747f3502fb40cf9827a9408d86aac469561,1,1,1,"2012-10-14 00:56:00","Accept {@inheritDoc} in comments without parent documentation
+"
+58,9672afbc8de8fb986f08b24ebb1fba8e4f5c2fbf,1,1,1,"2012-10-02 04:01:30","Fix make distcheck
+"
+59,81151dab07508e1657ddf252a11672c0b1868e7a,1,1,1,"2012-10-02 01:50:26","Improve {@inheritDoc}
+"
+60,1486befd45c88ff23e84852d2b605086683a18d4,1,1,1,"2012-08-29 22:34:50","libvaladoc/html: Fix nullptr in write_documentation
+"
+61,f08b397df4f4089d44658903106cdb030ed54a9f,1,1,1,"2012-08-21 01:07:41","icons: s/font: monospace/font-family: monospace
+"
+62,0613ea4287dc6744bc75ebd857b5bcb24331c0a1,1,1,1,"2012-08-21 00:29:10","libvaladoc: Accept error codes in @throws
+"
+63,5fe9947c394d1f6d855951b89b94a2153efe9562,1,1,1,"2012-08-20 16:01:54","tests: Add missing vapi
+"
+64,9d7827a824e958123bd43df53d8d3019decd4b3d,1,1,1,"2012-08-18 03:00:43","doclets/gtkdoc: Fix [Deprecated]
+"
+65,1cfea5ddbdda59ea7b6194aab353b6baf519a8a5,1,1,1,"2012-08-17 14:05:41","libvaladoc: Api.Class: Add is_compact
+"
+66,32b9c64ea4d27780373ac89403a6a020f734b472,1,1,1,"2012-08-17 02:14:40","libvaladoc/api: Add finalize and free function names to Api.Class
+"
+67,d147f38c1454d3fffcbb85e8c9ce64e9079fc686,1,1,1,"2012-08-17 01:07:30","doclets/gtkdoc: Register struct type macro/function
+"
+68,96be7e81f00cd7d01a45d59793f02274a0dd4395,1,1,1,"2012-08-17 00:05:12","libvaladoc/api: Hide unbrowsable property getters and setters
+"
+69,ea630c53ad06b868112d6b23fb7feeb632538731,1,1,1,"2012-08-16 03:30:35","libvaladoc: Add metadata for gtkdoclet
+"
+70,9d063401ca4d1b181d7f6e8e81aac5c344d75271,1,1,1,"2012-08-15 01:43:23","tests: Update generic-api-test
+"
+71,5e70a81a7af47ccab0a9476bd6e00a2edd3208a3,1,1,1,"2012-08-14 23:14:31","Add tests for drivers
+"
+72,a5be9be3c238dbaa80075c16d1ee535c187003fb,1,1,1,"2012-08-13 05:14:21","Add tests for MarkupReader
+"
+73,74f52f6aa195af2df445e1e5887331f69542156b,1,1,1,"2012-08-13 03:06:46","Add tests for libvaladoc/parser and gtkdoc-scanner
+"
+74,22e26f92848363f31fd7aa0a5de7f5dce8666bf9,1,1,1,"2012-08-10 23:41:56","libvaladoc: Move Api.NodeType to api/nodetype.vala
+"
+75,66586932bbd0d85f1868d0e382da843398c34665,1,1,1,"2012-08-10 22:02:03","drivers: fix namespace comment selection
+"
+76,2fe47371d2042e1d7d116d9fdbbaf338aaaa109b,1,1,1,"2012-08-10 18:53:06","libvaladoc: fix vala 0.14.x compatibility
+"
+77,42f200a010d5c374bfc9d1d9c6cfef58aa89be54,1,1,1,"2012-08-10 02:36:48","libvaladoc/html: Show all known sub-structs
+"
+78,13aba44f713378272aa92ad033c7016609802661,1,1,1,"2012-08-10 02:33:25","libvaladoc: register child structs
+"
+79,ca0431e1944864281c2490e632c71d03a28745aa,1,1,1,"2012-08-10 02:02:24","libvaladoc: Drop deprecated methods
+"
+80,cb1e01f5c5a26fa2660fcbfa9494cc70fd93e3bc,1,1,1,"2012-08-10 01:54:21","libvaladoc: rename Api.Interface.get_all_implemented_interface_list to get_full_implemented_interface_list
+"
+81,3ca94cabb68789cb20e37e0c9ecea7acc8b9487e,1,1,1,"2012-08-10 01:48:45","libvaladoc/html: Add ""All known members inherited from ""
+"
+82,8cfab911725cd434f63da2b138aa483cc5ac90f4,1,1,1,"2012-08-09 04:18:55","gtkcommentparser: Fix --verbose
+"
+83,1eebb3a020b0a91f153cf313bd90b0600b94a56f,1,1,1,"2012-08-09 04:15:01","gir-importer: Process implicit parameters
+"
+84,2daa05f2bd185e3de5c2e85afc86b2bc6194b41b,1,1,1,"2012-08-07 14:06:38","gtkdoc: accept %<numeric>
+"
+85,11f0cd175291d51e23b5074fa3964530f16e72c2,1,1,1,"2012-08-07 02:19:11","libvaladoc/api: Fix memory cycle: method.base_method <> method
+"
+86,93c84a28089a7d8e96b2c22b2b0201a49b7c7aff,1,1,1,"2012-08-07 01:23:38","driver/0.18.x: Add support for vala-0.17.4
+"
+87,14d00ae932291908bf15a8d113d09f4a692360a3,1,1,1,"2012-08-06 23:43:02","libvaladoc/parser: add workaround for  broken symbol resolver (valac 0.17.4)
+"
+88,4045ba965b142af50ddd1eeab245686b416c9672,1,1,1,"2012-08-06 21:54:53","libvaladoc: accept @return in constructors
+"
+89,056a7494cc2a60370608f44e261cd9da75dfde3b,1,1,1,"2012-08-06 19:16:45","libvaladoc: accept ""Vala ??.??.??-dirty"" as driver format
+"
+90,d58b4ea47102809453bc8e10298532de1bf29e00,1,1,1,"2012-08-06 02:09:15","error/warning message improvements
+"
+91,b21e59500c5041e5a0bd2f51b9f15fa07985d42d,1,1,1,"2012-07-21 22:11:48","doclets/devhelp: Imrpove page titles
+"
+92,7bc385ce8af35be772114e3cf7c429844afb130e,1,1,1,"2012-07-21 22:10:25","doclets/htm: Imrpove page titles
+"
+93,482fb8025a05eb3763648c9e20c42eef1a9e787b,1,1,1,"2012-07-21 19:39:00","libvaladoc: Improve plugin selection (#676453)
+"
+94,eef0cec3e990ea2646ba3cffab1980f65b031a3f,1,1,1,"2012-07-21 18:51:03","libvaladoc: Avoid reparsing of comments
+"
+95,20469451467f2234649007caef04e89b74ac9be2,1,1,1,"2012-07-21 18:14:57","libvaladoc/taglets: error/warning message improvements
+"
+96,e825f84180d92aeaf6d83cab2330d548c47b2024,1,1,1,"2012-07-21 17:21:06","libvaladoc/html: Add methods to package overviews
+"
+97,aa7023edb74292bf6e8a6fab7775fdb2aa93efd8,1,1,1,"2012-07-21 17:19:15","libvaladoc/api: Fix documentation for Method.is_override
+"
+98,f49d816d8cd2565c8abeeb4fd0b71a0a14bd86f7,1,1,1,"2012-07-21 17:17:29","libvaladoc/api: Fix documentation for Method.is_static
+"
+99,c12841ed6b314be622011b785ce943e5e67b0ec1,1,1,1,"2012-07-21 16:58:43","libvaladoc/api: Drop glib_error
+"
+100,64974b8bb083d41fb37ec54f6d074a51a697f479,1,1,1,"2012-07-21 16:47:02","libvaladoc: Add context check for @return
+"
+101,ca801cceaa0d38103754d1c3e31505216baa89de,1,1,1,"2012-07-21 16:45:50","libvaladoc: Add context check for @throws
+"
+102,9a248d5f59f77181342a11e37a7423d85387cd8a,1,1,1,"2012-07-21 15:44:36","libvaladoc: ErrorReporter: Drop ErrorType
+"
+103,c43bb2308d62c558eac5708338b5a666c3fbfa66,1,1,1,"2012-07-21 15:25:25","libvaladoc: @throws: Check for unthrown exceptions
+"
+104,5b67b39c05973b77d8d68d0b8503b037147d1092,1,1,1,"2012-07-17 23:57:27","libvaladoc/api: Add missing parameters to signals
+"
+105,1f9fb52c7c71ad74b48797f1655ca5b7636e77c3,1,1,1,"2012-06-14 16:48:10","driver/0.18.x: Add support for vala-0.17.1+
+"
+106,3fb36fe531cc65e20572eadc197de34bc3762ce5,1,1,1,"2012-05-08 11:32:58","libvaladoc/html: Turn namespace/package-notes into links
+"
+107,0e707e9b96c2086154b5352bf4c5ceb050a590a5,1,1,1,"2012-05-05 22:55:40","Add support for valac 0.18.0
+"
+108,75d4596d3f067c2e049364b8279f72b4fc087c3c,1,1,1,"2012-04-08 18:07:58","driver: Trim lines in *.dep files
+"
+109,caae1a453c3cf2f996c0fdecdb4d79ef08ce6213,1,1,1,"2012-03-26 21:38:28","libvaladoc: Fix typo in ValadocDocumentationScanner
+"
+110,df089746e63a6e8d7e5cb150c5da8926a778b5c6,1,1,1,"2012-03-26 21:06:10","libvaladoc: documentation fixes
+"
+111,e1a2fd0eb19fca68caba2bfcdbfb069789a302a9,1,1,1,"2012-03-26 20:36:55","libvala: Add support for libvala-0.16
+"
+112,5dbaebf86e6584b403f75e3502d68a45abc82544,1,1,1,"2012-02-27 01:34:37","libvaladoc/html: Sort subnamespaces in navis
+"
+113,0ff8f311772a51fcb269842d40b1b7478a5426a8,1,1,1,"2012-02-26 20:41:10","libvaladoc: gir-importer: Error reporting improvements
+"
+114,166a93dbeca04622ab0bcaf7cd077926baa049f3,1,1,1,"2012-02-26 20:17:34","doclet/devhelp: Add name="""" to <book>
+"
+115,c6f22949dc72af5edfd18bf4d350ae925fcc2d2c,1,1,1,"2012-02-15 21:35:45","valadoc: LinkHelper: turn get_package_link into a virtual method
+"
+116,7d8ae9dd2bf8e70f0d4421ecadbfbcaf36474f86,1,1,1,"2012-02-10 07:25:42","libvaladoc: mark @deprecated as deprecated
+"
+117,62c0c77a4a9f8186d37e9247323a3a59080777a4,1,1,1,"2012-02-10 05:48:15","libvaladoc: docparser: Fix invalid cast in lists
+"
+118,d4b3f1bf94bc38cf305aa89f10bf5ca09af0e3e0,1,1,1,"2012-02-07 16:20:12","gtkdoc-renderer: Fix broken escapes
+"
+119,93be5446d32b1f49fd993969ec457f80a31cab4a,1,1,1,"2012-02-06 21:43:53","gtkdoc-renderer: Avoid possible \n in signal/property-links
+"
+120,c3a15cce343f994c2d5d9fccca4d8e3b226422c5,1,1,1,"2012-01-31 23:51:57","gtk-importer: Allow ""struct [id]*] inside docbook type tags
+"
+121,5e56988bd8fbc352fccd0429a85a0dcdb8104994,1,1,1,"2012-01-30 02:56:14","gtkdoc-parser: Allow <title> in ordered and itemized lists
+"
+122,03fcfa5c77bad07ac29415a927db30be9cee47be,1,1,1,"2012-01-30 02:42:23","gtkdoc-parser: Fix possible infinite loop
+"
+123,3e4efd0d34df74f1c3f2360dcf79f8b4f028e739,1,1,1,"2012-01-30 00:39:34","gtkdoc-importer: Add support for orderedlist
+"
+124,0a8d1af2e53c3fbfe5dc5261d052dc03fd01fb79,1,1,1,"2012-01-29 22:14:12","gtkdoc-importer: Add support for refsect3
+"
+125,4d4cee8d2dd6edc2cae5d22fbb3d672e5bd38bf3,1,1,1,"2012-01-29 22:10:24","gtkdoc-importer: Add support for variablelist
+"
+126,5ab247e291e7cf872be19b8141b7fe85af866d48,1,1,1,"2012-01-29 20:32:00","gtkdoc-importer: Add support for sections
+"
+127,ab74858e5f4f17ac16983f7cb135edd13c72e288,1,1,1,"2012-01-29 18:49:40","libvaladoc: Accept block content in list-items
+"
+128,eeae29080b4a8b4a53d3968cb21870fd841b87c9,1,1,1,"2012-01-29 04:32:02","gtkdoc-importer: Allow mixed content in refsect2
+"
+129,13be912598131eeaf533fb7d4d60ac0ec1ea8b10,1,1,1,"2012-01-29 04:04:47","gtkdoc-parser: Add a helper for mixed content
+"
+130,9b803ed1532623edbeb8e3b82c5ed03a0d3091cc,1,1,1,"2012-01-29 02:49:13","gtkdoc-importer: Add support for abbrev
+"
+131,50fb6add9826b85691e3fc25be61dc531fcb0407,1,1,1,"2012-01-29 02:47:37","gtkdoc-importer: Add support for literallayout
+"
+132,0561123a987b538aa9658dae42bd416b28a7e297,1,1,1,"2012-01-29 02:46:55","gtkdoc-importer: Add support for informaltable
+"
+133,f5a3477fe1bd136a3f9f7e2048299ad24bd47ded,1,1,1,"2012-01-28 22:40:17","gtkdoc-importer: Add support for computeroutput
+"
+134,ebfea5fc31fb3f7e417fc43b532f9c37a785cc09,1,1,1,"2012-01-28 22:39:46","gtkdoc-importer: Add support for varname
+"
+135,96e1e491dde5f861da18a5da0acff5465f30a293,1,1,1,"2012-01-28 21:45:40","gtkdoc-importer: Fix to_string for xml-close
+"
+136,ade1458676e7170ccc296476edc734508a098e3f,1,1,1,"2012-01-28 21:16:57","gtkdoc-importer: Add support for figures
+"
+137,bf9eba31da7599606e23993949f0d3f9858bf200,1,1,1,"2012-01-28 20:41:30","libvaladoc: gtkdoc: Add support for important
+"
+138,7cdb4f8094138c7e59fe90ae98a7c003b712a6d3,1,1,1,"2012-01-28 19:59:21","gtkdoc-importer: Merge rule for example & informalexample
+"
+139,27b237422064ba6c910ae73fe4adeb79e04e5166,1,1,1,"2012-01-28 04:54:48","Add a metadata-format for gir files
+"
+140,8de9caa985fa3e79348c1c88b9313a4bce4d92e6,1,1,1,"2012-01-27 17:10:59","libvaladoc: Add support for SourceCode attributes
+"
+141,27725c56de43ad0ef67b32b1977e086d0704913c,1,1,1,"2012-01-27 04:25:23","Add support for vala 0.15.1
+"
+142,4f4829ba44ea261c80e6d7971be664c157b48e9b,1,1,1,"2012-01-27 03:20:30","Embedded: Search images relative to the file
+"
+143,117bd32510ed29f46d2fc5c69fa0d2aeed80abe2,1,1,1,"2012-01-27 03:05:32","doclets/devhelp: Add full wiki-support
+"
+144,1bd1c6fd062d26e776cabbaa2bab0ad009453af6,1,1,1,"2012-01-25 14:46:16","libvaladoc: Allow conditional spaces in headlines
+"
+145,c32b39c94f71e02e12611c412351410fee1a9ed4,1,1,1,"2012-01-23 16:47:04","libvaladoc: Fix broken nullchecks in parser.error & warning
+"
+146,737a1463232535f487850f80fe0fb49b4978f77e,1,1,1,"2012-01-23 16:26:52","libvaladoc: add helpers for valadoc.org
+"
+147,61df61ef805b550970475146be5de323acae5cfd,1,1,1,"2012-01-23 16:21:37","libvaladoc: drop varargs for signatures with implicit parameters
+"
+148,fbe228e72733557f4627979655fca5dd45a35cd0,1,1,1,"2012-01-23 00:30:12","Fix -D
+"
+149,83efcc0745f3364be1b21a46ec96895a734e3187,1,1,1,"2012-01-16 01:07:09","libvaladoc/html: Keep error-reporter for derived doclets
+"
+150,fcc844f91e153ef9270c7f913c32ab78d57841d0,1,1,1,"2012-01-16 01:05:37","libvaladoc: gtkdoc-parser: Fix possible segfault in footnotes
+"
+151,5a58dcd25cb62f22e94fb223e93cecdb902bc72d,1,1,1,"2012-01-16 01:03:17","libvaladoc: ModuleLoader cleanups
+"
+152,ff94c631c9826c114928c8549186d9747b0b6079,1,1,1,"2012-01-14 23:49:16","libvaladoc: ModuleLoader cleanups
+"
+153,208fc48688a926ffac9a7e47c7070976ad6a72de,1,1,1,"2012-01-09 01:15:30","libvaladoc: gir-reader: accept @<id>(::|:|->|.)(<gid>)
+"
+154,ea89ac5dd42a7d3564ca6955b93f8356e1b04fd3,1,1,1,"2012-01-07 17:15:16","libvaladoc/html: Add style for {{{source}}}
+"
+155,7140c07477a6e894c02fb5df2fb14d177cb3c40e,1,1,1,"2012-01-07 05:04:26","libvaladoc: gir-reader: Unescape %, @, (, ), &, #
+"
+156,e62c5a57c8f0dada55a8337ecfcb795d70b8ee9b,1,1,1,"2012-01-07 00:55:14","libvaladoc/html: Signals: Hide content listing
+"
+157,70f4fa9a293229d051b9f23ad54e8a3c40d5a686,1,1,1,"2012-01-06 22:58:18","libvaladoc: gir-reader: accept #[id].[id|func]
+"
+158,c7a994dd1f25426b6c307b4de8b347daed0d3f57,1,1,1,"2012-01-06 21:18:12","libvaladoc/html: Hide redundant links
+"
+159,098c1f94732322a266773af4c30dc424ead10e66,1,1,1,"2012-01-06 19:55:30","Fix segfault triggered by valac-errors
+"
+160,7d5abf3972158a3b24d2e075c20bde604de3e813,1,1,1,"2012-01-06 18:40:00","libvaladoc: reorder @param
+"
+161,921a85b1618ebc4a2f92c1c786b6b9b84f1ffb38,1,1,1,"2012-01-06 16:26:31","libvaladoc: @parameter: check for existence
+"
+162,8d29ae7db6db63f4d90103d7288fa58fb1f0e219,1,1,1,"2012-01-06 16:07:50","libvaladoc/api: Signals: Add missing ""signal"" keyword to signatuers
+"
+163,5f2db5a15b6dce33253c7d6ba766db4ac2292957,1,1,1,"2012-01-06 03:57:46","libvaladoc: gir-reader: accept #[id]->[id|func]
+"
+164,6b15ef4ca6180d42b5d1efba3a8b6117214ce088,1,1,1,"2012-01-06 02:36:19","libvaladoc: gir-reader: allow _ as prefix in function names
+"
+165,4727810cbffe0638ba47976c8ff13e5775482f57,1,1,1,"2012-01-06 02:26:30","libvala: gir-reader: fix spaces/newlines in img-alt-text
+"
+166,404d1a7d4ddee6505ff3dfbf859e835e58bec292,1,1,1,"2012-01-06 01:46:25","libvaladoc: gir-reader: Improve @-quirks-mode
+"
+167,e85e76dec1010dae4e01c859978ca2c3f02014b2,1,1,1,"2012-01-06 01:02:25","libvaladoc: gir-reader: accept &pi;, &gt;, &lt;, &solidus;
+"
+168,73bb067185c2f5dd2bf1c285c68f8a8680046a76,1,1,1,"2012-01-05 23:26:08","libvaladoc: gir-reader: accept @...
+"
+169,ca2ba9131b10c5927172505f89f79cc0088dca3f,1,1,1,"2012-01-05 22:28:30","libvaladoc: gir-reader: improve short descs
+"
+170,b06a307a2a201b643ba81bf2c9cc940fd04285e5,1,1,1,"2012-01-05 15:49:06","libvaldoc/html: Add missing - between ns and short desc
+"
+171,b4a6e4a98e5ca16889391a5db989b151f03ed208,1,1,1,"2012-01-05 03:31:39","Add initial reading-support for <doc>
+"
+172,b753b88a432fca3a8947a1ea0743e44f626e23a2,1,1,1,"2012-01-05 03:24:02","Add warning & note tags
+"
+173,3175c9de0718ab2fae86c4ffba4f2b25b747f183,1,1,1,"2011-12-19 02:01:02","driver: merge 0.13.* and 0.14.*
+"
+174,c05a5f75cdc3282ee7bdb785babf13c37e82ac11,1,1,1,"2011-12-18 18:52:53","libvaladoc: parser: Fix broken ?
+"
+175,726d32238c7ff6958664bb766cbb5d78c283024a,1,1,1,"2011-12-18 18:51:14","libvaladoc: gir-importer, c-resolver : various improvements
+"
+176,924f7d685eddace910e2b831ba4fc19aa0028437,1,1,1,"2011-12-18 18:48:01","drivers: merge 0.11.* and 0.12.*
+"
+177,8ec48f53db37a1fb7c4c06fb62cae13f0ffac40d,1,1,1,"2011-11-30 16:27:34","doclets: Fix text size in html & devhelp
+"
+178,dc6edfc736bb630b805d0c3f7afc6ca4768e605c,1,1,1,"2011-11-28 17:11:49","gir: basic reading support
+"
+179,6fe783ef0149576182b26e4d15ed1ba98643a32d,1,1,1,"2011-11-05 14:17:00","driver/0.13: vapidir-fix
+"
+180,0ddd26c325e6d7cf228aeaa860f712e997ad8e8b,1,1,1,"2011-11-03 03:32:32","Add doap file
+"
+181,05ce7aa0c12a8478ccb34579c8c3d8319af8b877,1,1,1,"2011-11-03 02:49:51","driver: 0.14: Add throws declaration to signatures
+"
+182,530e3757aa56bea4d0b4f47fafee7a5d635009be,1,1,1,"2011-11-03 02:37:46","drivers: Add 0.16.x
+"
+183,cd641db16dab2a72fa03f5f9163a088c0950babd,1,1,1,"2011-10-06 00:06:21","doclets/devhelp && htm: Fix output directory creation
+"
+184,069787a17d70841274d75458735e433288da53cb,1,1,1,"2011-10-05 23:43:16","drivers: Add 0.14.x driver
+"
+185,843c6cfc341d82f9a1282f52f3db6448bf360c0c,1,1,1,"2011-10-05 23:34:28","libvaladoc/html: BasicDoclet: <title> improvements
+"
+186,c93e1d8deccb1d508e50a890e96cb4dc929ee044,1,1,1,"2011-09-07 20:07:51","driver-0.13.x: Add basic gir support
+"
+187,0e90facc5014282a641fa99df3439bfa3fc8b3c9,1,1,1,"2011-09-01 17:29:22","Various cleanups
+"
+188,fcb4027846edb2d660ea94374aaf520df7189247,1,1,1,"2011-08-13 00:30:05","driver/0.10.x: Fix get_method_binding_type, static
+"
+189,91caac25756464a87e7185c305302353b8bb2faa,1,1,1,"2011-08-13 00:29:11","driver/0.10.x: Add support for attributes
+"
+190,df3e0b75c0ab7c6c7ba511e3fbefbae6e919d65b,1,1,1,"2011-08-13 00:12:47","driver/0.10.x: Fix type parameter creation for methods and implemented interfaces
+"
+191,935820dbb5b80a81e66f432ec5199516bc98e998,1,1,1,"2011-08-13 00:05:57","driver/0.11.0: Add support for attributes
+"
+192,d12bc09a4a1bc16e39f9ed899cd084c428145e9b,1,1,1,"2011-08-13 00:00:30","version/0.11.0: Fix get_method_binding_type, static
+"
+193,d6287cec92a808d1872cd376d6d8de59f27d5748,1,1,1,"2011-08-12 23:59:51","driver/0.11.0: Fix type parameter creation for methods and implemented interfaces
+"
+194,8b496a8c9cf28bc85c2ff66397b6c022764ba81f,1,1,1,"2011-08-12 23:47:04","driver/0.11.x: Fix type parameter creation for methods and implemented interfaces
+"
+195,f43ef1b9e9b26672926e7fb9dfd46536404c0ebc,1,1,1,"2011-08-12 23:28:01","version/0.11.x: Fix get_method_binding_type, static
+"
+196,8a96307a3e4851e914e5fd6cbe698534f81e664b,1,1,1,"2011-08-12 23:24:28","driver/0.12.x: Add support for attributes
+"
+197,dde68eec99063198254938b85ea2ee40fa6995a4,1,1,1,"2011-08-12 23:16:55","driver/0.12.x: Fix type parameter creation for methods and implemented interfaces
+"
+198,ad31a26a38930db286ccaa5008e0b1b7f97337c5,1,1,1,"2011-08-12 22:44:04","ver/0.12.x: Fix get_method_binding_type, static
+"
+199,9822d0d87e828fab55ed67fbdac20af00ca1b423,1,1,1,"2011-08-12 22:29:46","driver/*, libvaladoc: Move ChildSymbolRegistrar to libvaladoc
+"
+200,456e8cd8afd98001ad989ee05b59be9ebd00d1fa,1,1,1,"2011-08-12 19:42:06","libvaladoc/html: Add non-static methods to namespace-content
+"
+201,f484ce89c850421fb11020b77ab8b0b55aed6d0f,2,2,2,"2013-06-23 13:12:47","poppler-glib: Drop unnecessary dependencies
+
+Thanks to tarnyko for the patch.
+
+Fixes bug 702873.
+"
+202,3d5e8e7204d2c84cc3eb1306b1c7b7e7f971d23b,2,2,2,"2013-06-28 23:37:25","gtktemplate: Allow connecting signals of the template class itself
+"
+203,6d07669384cdb70c3c657dba67d5048212f25da9,2,2,2,"2013-07-11 22:39:53","codegen: Allow scope=async delegates to be used in vala code
+
+Fixes bug 703804
+"
+204,6be295f78a3263f15b3f6e8b168727aa8a729269,2,2,2,"2013-07-27 16:16:29","Align gtk templates to new gtk+/glib api
+
+Based on patch by ebassi.
+"
+205,9b40777896ca30ea71bb9624a0b36353bfa94fd7,2,2,2,"2013-08-24 12:52:04","libarchive: Fix read_data_block C name
+
+Fixes bug 704612.
+"
+206,e331049d0f66a04a1d3dc2c64eedf1a4f574c6ec,2,2,2,"2013-08-24 13:45:56","Do not warn for non-default parameter if it's ellipsis
+"
+207,3e20fd82c05daa60005aaff11411cd1814beb778,2,2,2,"2013-07-09 08:03:58","girparser: Support scope=async parameters.
+
+Based on patch by Evan.
+
+Fixes bug 704176.
+"
+208,dd24a1bfe1a78bf1a37d35f5d8dd6480fd4a8941,2,2,2,"2013-08-26 22:36:00","Do not warn about non-default parameters for coroutines.
+
+Reopens bug 644241.
+"
+209,ed8f32bd6696291a1bc49597b70c30335ec2917d,2,2,2,"2013-09-21 11:34:06","Support chain up to constructv functions.
+"
+210,ebfe7b7411f413a8631fec22e704a0d8921f4417,2,2,2,"2013-09-29 17:35:47","codegen: Inherit array_{length,null_terminated} from base parameter
+
+First commit to start inheriting ccode attributes of parameters
+from base parameters of base methods.
+
+Partially fixes bug 642885.
+"
+211,f3aeabaf16a5e9a9ad0aa5d64b18652c203c602e,2,2,2,"2013-09-29 17:35:47","codegen: Inherit array_{length,null_terminated} from base parameter
+
+First commit to start inheriting ccode attributes of parameters
+from base parameters of base methods.
+
+Partially fixes bug 642885.
+"
+212,e3cccfb75832fae388bcf773c7b75561dac91b68,2,2,2,"2013-10-02 22:11:46","Fix subtle bug in flowanalyzer that made the compiler crash
+
+By not copying the datatype the parent_node was overwritten.
+The bug was reproducible only with G_SLICE=always-malloc .
+"
+213,a09c9e93af0d64b9331c274de573465fe070b722,2,2,2,"2013-10-06 21:06:46","Set parent_node and always copy datatype when assigned to code nodes.
+
+This is a delicate patch that fixes subtle memory corruption bugs in
+libvala users and the compiler itself.
+It might break some application, so this commit is open for testing.
+"
+214,5764bac40da1cd4124ff9e16484c5971ffc07d57,2,2,2,"2013-10-07 20:50:47","Revert ""Set parent_node and always copy datatype when assigned to code nodes.""
+
+This reverts commit a09c9e93af0d64b9331c274de573465fe070b722.
+
+Fixes bug 709587.
+"
+215,eaf1a1feafc621d3dad1106c0a4c389ceefd22b2,2,2,2,"2013-10-09 20:57:08","Fix crash due to not copying a type
+"
+216,aa6c377fc4ce99db76db24c9eaf7db493c561b70,2,2,2,"2013-10-20 12:37:05","girparser: Support new gir format (deprecated, doc-version, doc-deprecated)
+"
+217,4038abdfdde146ec46c3037035a4e4c14e97942e,2,2,2,"2013-10-21 20:10:03","Merge branch 'staging'
+
+Conflicts:
+	vala/valagirparser.vala
+"
+218,b6f7cd6c2aaf5dee64f618a0e06b0d0c157ea352,2,2,2,"2013-10-26 11:32:23","Fix memory leak when assigning an owned gvariant to an unowned variable
+
+Fixes bug 710882.
+"
+219,158a273158582155cf5baf1242bb10d12a3e223d,2,2,2,"2013-10-26 12:43:14","Revert ""gio-2.0: Fix uint8[]/char** types for contents parameters for g_file_[load|replace]_contents()""
+
+This reverts commit e4ef6fb72f560da385a09d262ef8afd2b64a1fc8.
+"
+220,c22df00d95d89feed488608ad943822ed6a9c715,2,2,2,"2013-10-26 12:48:38","gio-2.0: Update. New Notification and Subprocess api
+
+Based on patch by Florian Müllner.
+
+Fixes bug 710912.
+"
+221,bdf572331bcca90f192d50cb79d97ca67ac43d90,2,2,2,"2013-11-24 11:50:44","codegen: Zero length of arrays when transferring ownership
+
+This allows var data = (owned) aGenericArray.data;
+without later setting data.len = 0 manually.
+"
+222,5d96dcfc5f65da2ef2c3c04614bef7853eeebcf2,2,2,2,"2013-12-14 14:41:26","analyzer: Fix critical when catch clause does not catch an ErrorType
+
+Based on patch by Severin Heiniger.
+
+Fixes bug 670806.
+"
+223,b4b95a4d45e27d8b4df6887f1493a076017aae8b,2,2,2,"2014-01-04 12:37:18","gtk+-2.0, gtk+-3.0: Improve TextMark constructor with nullables and defaults
+"
+224,1c6064c6d49dcb5f682d7b213a47749f0f298817,2,2,2,"2014-01-04 13:01:09","girparser: Fix some source reference when reporting errors after parsing
+"
+225,23cc3054f8069da9679d50084be8262bc944c071,2,2,2,"2014-01-03 20:04:05","girparser: Handle delegate aliases
+
+Fixes bug 667751
+"
+226,550b1078962eea5e5395078e61ae8344b1066bf9,2,2,2,"2014-01-04 21:03:51","codegen: Fix memory leak introduced by fe9beb82b6809
+"
+227,86bf398bdff96c03ffb34ef0a60d311557db5077,2,2,2,"2014-01-06 11:31:41","gtktemplate: Handle callbacks for detailed signals
+
+Fixes bug 720825
+"
+228,58259ec0ef06548786a0d650c568267f5a6f0f17,2,2,2,"2014-01-11 12:13:38","Fix coalescing operator semantics check.
+
+The left operand was not put in any code block
+before the check, thus it wasn't able to transform itself.
+
+Fixes bug 691514.
+"
+229,e15a795130250de68c4ea9bf3205c58865732869,2,2,2,"2014-01-11 17:04:02","codegen: Support ""foo is G""
+"
+230,fd9759c307e483b91416938c107ff7f4f65d3e84,2,2,2,"2014-01-16 22:48:44","glib-2.0: Fix short.abs() to be an instance method
+"
+231,95d0aa0246edbbeade95afaa569243841507bd07,2,2,2,"2014-01-25 14:57:18","Fix calling methods on struct pointers
+
+Fixes bug 686190
+"
+232,e9eb1ebb8f4911144628c793707db86af7c2e26c,2,2,2,"2014-01-25 15:55:05","codegen: Reduce the number of temporary variables
+
+If a temporary variable has been generated internally,
+do not create another regardless of whether it's floating or not.
+"
+233,603c1c792adf538125e17e8bf70804c97e96a8f5,2,2,2,"2014-01-25 21:08:05","codegen: Always assume external interface properties are gobject properties
+"
+234,6949360735ce69776f3e64d25fc3efab5ce387e5,2,2,2,"2014-01-26 12:10:57","Fix semantics for coalesce operator when target_type is null.
+
+Fixes bug 639482
+"
+235,d70bff7cc4f131e3b69e871af770b5d9caf653cf,2,2,2,"2014-01-26 15:47:28","Add create_temp_access to properly access a temp variable after transformation
+"
+236,b932bae777f139e696d116d459c4bc2dc055e751,2,2,2,"2014-01-26 15:48:10","Use create_temp_access instead of local.floating in MethodCall
+"
+237,cee269cd25fb753d63586d718468f237160621c5,2,2,2,"2014-01-26 15:48:22","Use create_temp_access instead of local.floating in ObjectCreation
+"
+238,19184595677fdd08acf35c32ff78a3d97faf3ab2,2,2,2,"2014-01-26 15:49:18","Avoid unnecessary copies when using the coalescing operator
+
+Fixes bug 661985
+"
+239,3f68a952ca96fb80ce5ef071e6a5788c8cac068f,2,2,2,"2014-01-26 15:50:13","Drop LocalVariable.floating usage, replaced by create_temp_access
+"
+240,517d25a5daf7016b6af85173af184eb7e6b5e9c4,2,2,2,"2014-01-26 18:06:43","Fix regression when coalescing: value owned if either of the two is owned
+"
+241,fa7dda0eed0c8d8a2b945c4d848923b1fc102f66,2,2,2,"2014-01-27 22:48:53","Add build-aux/test-driver to .gitignore
+"
+242,db462e6f919da758fbb2f4e7b3cbbf2897ec852b,2,2,2,"2014-01-28 20:34:47","Fix regression in method calls that throw errors with Value target type
+
+Related to bug 723009
+"
+243,8f9979da7a75cb91a46e47e61bf35a41c8ff8083,2,2,2,"2014-01-28 23:47:24","gtkmodule: Ensure child gtypes are initialized before creating the template
+
+Fixes bug 720282
+"
+244,1ce134ce2b9cf8a17a1f8f0aee2c77b88bc8f931,2,2,2,"2014-02-03 21:57:15","girparser: Add type_id metadata
+"
+245,b73ea393088c12a44b1cf830c127315f191002e0,2,2,2,"2014-02-03 22:01:26","girparser: Shut unused destroys_instance warning
+"
+246,871cf22610d7869afa90c64a014da9bcebcd620f,2,2,2,"2014-02-03 23:16:32","gstreamer-1.0: Fix ElementFactory.get_static_pad_templates return type
+
+Fixes bug 720694
+"
+247,805c31bc389ba5ff7901c26b785cab1cfbfc930d,2,2,2,"2014-02-03 23:19:37","girparser: Shut warning about unused experimental metadata
+"
+248,53710eed0797b48cfc71d8f8ace081238560e455,2,2,2,"2014-03-02 22:52:24","girparser: Add array_null_terminated, fixes hand-written change in gio
+"
+249,6a98c0fa62d50728bc2aa63119724138e5335fc3,2,2,2,"2014-03-06 21:17:08","dbusserver: Rename the generated ""parameters"" identifier
+
+Fixes bug 725555.
+"
+250,874b48c4fcc1ed9063bddc53b7757c17b97e858e,2,2,2,"2014-03-06 21:26:59","gio-2.0: Make Action.state, state_type and parameter_type nullable
+
+Fixes bug 725367
+"
+251,54b3c980562ef2bc1f1ade9876f9973a820d62e4,2,2,2,"2014-03-06 21:28:57","gio-2.0: Also make Action.get_state_hint nullable
+"
+252,cd2f686a4a454afe9c5ccc72e0d429a226adc6ca,2,2,2,"2014-03-14 22:48:01","gtk+-2.0, gtk+-3.0: Make ComboBox.set_active_iter parameter nullable
+
+Fixes bug 726141
+"
+253,4e4974557378ba41dc00566149448b3e375b3a44,2,2,2,"2014-03-16 11:35:19","Add test for bug 726347
+"
+254,8fd03272c3dea767f757f73d2ff2c8dde70c0331,2,2,2,"2014-03-16 15:44:18","gstreamer-1.0: Make Element.add_pad parameter unowned
+
+Fixes bug 702960
+"
+255,8e25c2b52e4cfe286a988d9f86f5e5a86b7736cf,2,2,2,"2014-03-16 16:21:27","gstreamer-1.0: Make Bin.add_many first parameter unowned
+
+Fixes bug 702969
+"
+256,47868c96854fbdd146493b16ac8ab87f0f9cc8bd,2,2,2,"2014-03-16 16:28:04","gstreamer-1.0: Make Bin.add first parameter unowned
+"
+257,42393d7aacf98e0e1657aadebdc8d4961db7a447,2,2,2,"2014-03-20 20:28:33","codegen: Inherit array_length and array_null_terminated of methods
+
+Fixes bug 726744
+"
+258,c1324f492737c27552a28d0d911e74064cdfa75b,2,2,2,"2014-03-20 22:24:27","gidlparser: Do not set nullable to void type
+"
+259,5b8db054c3b26c9418816be796fffce9d042a0ee,2,2,2,"2014-03-20 21:27:17","gstreamer-0.10: Set GstURIHandler.get_uri_type vfunc to get_type
+
+Fixes bug 726745
+"
+260,02b3917f515c48be72fecdda52b3f84eea2358d5,2,2,2,"2014-03-23 23:18:06","tests: Use sed '$d' because head -n -1 is not portable
+
+Fixes bug 726908
+"
+261,ad4efc4c7b8dc13f62f14b8ecd9099baf58d2f67,2,2,2,"2014-03-30 13:47:08","atk: Update and fix metadata
+
+Fixes bug 727029
+"
+262,0b556bfe84ce5ad659e2e944a010a9d5c927a7b6,2,2,2,"2014-03-31 23:44:57","girparser: Support interface aliases
+"
+263,c9636b264a6487de1c7718f391a3c93f3a2aabf4,2,2,2,"2014-04-01 21:27:37","libnotify: Updated to 0.7.6-3-gda49c8c
+
+See https://bugzilla.gnome.org/show_bug.cgi?id=667904
+"
+264,46288a083f67216cc5ace1a30ac16c8d4fb0fb4e,2,2,2,"2014-04-05 19:34:13","gdl-3.0: Update after the GdkEvent change from struct to class
+"
+265,3ff28bc8dc5d849263f9205cbe8ee8323dfbc318,2,2,2,"2014-04-05 19:36:30","Remove gedit from all-bindings as it will be shipped upstream
+"
+266,f6083cd7e87c3bcd4a97d872c4f5ed0a95055067,2,2,2,"2014-04-05 19:39:22","geocode-glib-1.0: update to 3.12.0-5-g7eb1490
+"
+267,528826d1103474e73c2ba0d445e78e78c48b34a9,2,2,2,"2014-04-05 19:40:29","gobject-introspection-1.0: regenerate according to vala-girs
+"
+268,a1078635fd65ba3cd97f5b333549ccd5ca161e83,2,2,2,"2014-04-05 20:20:41","girparser: reset cheader_filenames before parsing a gir
+
+Remove gedit-2.20 from all-bindings due to a random bug.
+Sometimes it's successful, sometimes it's not.
+"
+269,637544dc6d948b5d7e96068db8de1a1f16540ab3,2,2,2,"2014-04-07 20:24:26","gtk+3.0: fix Application.set_accels_for_action array parameter
+
+Fixes bug 727752
+"
+270,0ffe72386589ad6a7f52f95a68929277a31cf719,2,2,2,"2014-05-17 19:34:06","Support (unowned type)[] syntax for transfer-container arrays
+
+Fixes bug 571486
+"
+271,a3692434eaa399c9009f6497091ab1dd6900fd8a,2,2,2,"2014-05-17 21:42:09","Fix writing vapis with (unowned type)[]
+"
+272,1c814e174d161102ea3288121f6b4c09c8b46482,2,2,2,"2014-05-17 22:20:03","girparser: Make array element type owned by default
+"
+273,d755a23195bd2a0ee7047fc61850ef9714edf8cc,2,2,2,"2014-05-17 22:31:03","Revert ""girparser: Make array element type owned by default""
+
+This reverts commit 1c814e174d161102ea3288121f6b4c09c8b46482.
+"
+274,c7ecbdf2ec508f74355e37b82ca6994f3aa19b9b,2,2,2,"2014-05-17 22:39:35","Fix gir and gidl bindings due to (unowned type)[] arrays
+"
+275,e1a3ff9470763e7c6ff5a887036390bd418f4e46,2,2,2,"2011-06-08 14:10:55","Support explicit interface methods implementation
+
+Fixes bug 652098
+"
+276,c72f0ce11f641f30ef334aaa43d925f480692375,2,2,2,"2014-05-31 12:59:04","gobject: Add Binding.unbind
+
+Fixes bug 730967
+"
+277,02c7a414e00dc8e79c4cb9ad6c0c436df26c8dd5,2,3,2,"2014-06-03 11:57:07","codegen: Simplify field initialization for struct types
+
+Fixes bug 703996
+"
+278,362e94ffa7bc065e0a88f6f999c9c491b06e8946,2,3,4,"2014-06-03 11:08:52","girparser: use identifier prefix from GIR when appropriate
+
+Fixes bug 731066
+"
+279,b629226237ca0f2301da2e9e5899d56a4468012b,2,2,2,"2014-06-14 13:41:00","glib-2.0: support Variant objv
+
+Fixes bug 729695
+"
+280,0edb05ca26693d9a0b0fa1b4e547b58990ea0db4,2,2,2,"2014-06-15 11:36:56","gvariant module: Fix memory leak when deserializing hashtables with gvariant
+
+Fixes bug 698260
+"
+281,1b08707e9ca27a52f515247a3c2c74872ed2359f,2,2,2,"2014-06-18 21:43:51","non-nullable: Accessing array methods is safe when the array is null
+
+Partially fixes bug 728656
+"
+282,b93f6e6d7ff3b79a6b97c92aea857fcb366fa7ba,2,2,2,"2014-06-27 17:14:39","Call g_signal_handlers_destroy on gtypeinstance finalizer
+
+Fixes bug 708130
+"
+283,6c36eb4063ecb7ece8280de260c279f17139a504,2,2,2,"2014-06-28 10:42:14","codewriter: Do not write (unowned string)[] for constants
+
+The element type of a constant array is forced to be unowned
+in the parser. Therefore we don't write (unowned string) to avoid
+breaking vapi parsing uselessly with older valac versions.
+
+Fixes bug 732080
+"
+284,57367c50781071aac042b943b6db71b473c9180c,2,2,2,"2014-06-28 10:53:18","Fix previous 6c36eb4 commit
+"
+285,7616e0339c2099243acaba7dd3cc47210db97bdd,2,2,2,"2014-08-03 20:42:09","Add lvalue_access = false to Mutex and Cond
+
+Fixes bug 733500
+"
+286,8990c037e594b1bda834070847d46f351bf99a28,2,2,2,"2014-08-11 13:53:15","Add Simon Werbeck to THANKS
+"
+287,29b93a27ddffb0cd77cdf44281a8889c22aff994,2,2,2,"2014-08-11 14:32:23","Report an error when parsing non-public struct fields
+
+Fixes bug 683413
+"
+288,e0adb081fc11e563b037e19b2b85bcdc93a437c3,2,2,2,"2014-08-14 14:28:21","parser: Report error only for private instance fields in structs
+
+Fixes bug 734787
+"
+289,b62ee43c9cf0b0fe2eadb39d0cc01e65cd17b5b7,2,3,3,"2014-08-19 12:28:57","glib-2.0: fix Hmac.update bindings
+
+Fixes bug 735041
+"
+290,59725f1b7235aec13415cee130502f8918f0116c,2,2,2,"2014-08-21 01:35:45","Report warning instead of error for private struct fields
+"
+291,ef9cdf86352f5d7d50b34eec6a602d7c6e13ae0a,2,3,3,"2014-08-29 16:43:32","Fix critical when using binary expression in a generics context
+
+Fixes bug 735117
+"
+292,ba1fa0759989dcbb9046c7dfc06cce6c4aa23411,2,3,3,"2014-09-04 18:26:21","Fix regression when assigning owned expressions to unowned variables.
+
+The regression was introduced by db462e6f919da758fb.
+
+Fixes bug 736016
+"
+293,9bf7a115525ab76ec71a7763c9e60b5ecaccac2e,2,2,2,"2014-09-06 09:32:09","Fix critical on method varargs introduced by 7b6ee1be
+
+Fixes bug 736168
+"
+294,962c2ece5915345fd6d9ac9f97919373e204fba7,2,2,2,"2014-09-09 20:31:10","Resolve symbols in named arguments
+
+Fixes bug 736235
+"
+295,20cb52c5ac94dc2fc1a36930f341938e91025706,2,2,2,"2014-09-14 11:19:00","girwriter: Write accessor methods for interface properties
+
+Fixes bug 733115
+"
+296,c08dd2c82dcfe42f2f6fb23333eadf63ed2d7f22,2,3,3,"2014-09-19 14:43:45","Revert ""Fix regression when assigning owned expressions to unowned variables.""
+
+This reverts commit ba1fa0759989dcbb9046c7dfc06cce6c4aa23411.
+
+Due to bug #736774
+"
+297,0bc2ab935da1a16128d5595aaf208f48d069781d,2,3,3,"2014-10-13 11:05:03","gtk+-3.0: Add a11y.h header to accessible objects
+
+Based on patch by Peter Vagner
+
+Fixes bug 735265
+"
+298,afb3846cb9b89bc154d9d774dc500fb2bce55d7a,2,3,3,"2014-10-13 11:41:37","gstreamer-1.0: remove owned to floating reference parameters
+
+Commit 6296d34707 (bug 730983) added the owned
+keyword back without any reason.
+
+Fixes bug 738012
+"
+299,f0b5b2d70b654dba1ee06992c25edd2a2fa174e7,2,2,2,"2014-10-25 12:57:02","fix typo for non-constant field initializers
+"
+300,c4480163eac396eae7707ca8e0fe2256286ade12,2,2,2,"2014-10-25 14:07:10","Add test for commit 0f0bca7e0519
+"
+301,233903bb78ded3261c7862494d69780465bf8806,2,2,2,"2014-10-31 21:38:12","Use .ascii_up() instead of .up()
+
+Fixes bug 739393
+"
+302,a9a11d23aab730aa67a8be7d0fbc92e4d94beab9,2,2,2,"2014-11-08 14:50:03","gtk+-2.0, gtk+-3.0: make TextBuffer insert methods ref the iter
+
+Yes, this breaks users of this api. Can't do better, sorry.
+
+Fixes bug 736198
+"
+303,e9ef9b97ee54dfd0a6f4c77acbf278266757e469,2,3,3,"2014-11-14 16:30:17","gobject-2.0: Add DestroysInstance to Binding.unbind()
+
+Fixes bug 740117
+"
+304,3a424782b8663270000716b5dcc1b22a576c6467,2,2,2,"2014-11-15 13:32:16","Update gio vapi after vala-girs update
+"
+305,44af0246c480b9421f391dd71376298b43a99e2a,2,2,2,"2014-12-03 12:39:23","Warn about unused attributes
+
+This may not be the best approach, but it's a start
+"
+306,3af92929decf27eb045ff229082abe4e6c4b82a8,2,2,2,"2014-12-03 16:10:37","Fix recent syntax errors with older valac
+"
+307,0b4b9f7ed12a5609c760ca93521d52879ab08413,2,2,2,"2014-12-03 16:14:46","Add more default attributes
+"
+308,7313d4beb806bc046636933119053bd0393d0d12,2,2,2,"2014-12-03 16:55:20","Add ScanfFormat to used attributes
+"
+309,2a7b848740cfe8eba6005803cf0167f54490c754,2,2,2,"2014-12-04 10:17:27","Add more used attributes
+
+Fixes bug 741089
+"
+310,02f7c82a4b810147142056722fb11cfec57a6829,2,2,2,"2014-12-04 10:25:10","Add other missing CCode arguments, NoWrapper and DestroysInstance
+"
+311,56a939c3f16d0c9a90fb4f9e332838a234c08415,2,2,2,"2014-12-04 15:23:44","Error when lambda parameter has incompatible direction with the delegate
+
+Fixes bug 740894
+"
+312,43162699924ee9295b47e1fecf6068e6fe4b4ad8,2,2,2,"2014-12-05 19:00:51","Support XOR operation for booleans
+
+Fixes bug 729907
+"
+313,c8dec345b6e2ad04ffcede24779dd75efd25d599,2,2,2,"2014-12-06 15:47:23","Add used DBus attribute and fix UnixMountEntry lower_case_cprefix
+
+Fixes bug 741089
+"
+314,e9cba0d2cc00ce51932418aec929cbfb74dfd004,2,2,2,"2014-12-09 10:08:31","Add Signal to known attrs
+"
+315,cd1025f047e151b40ac538a6a83754a49dfa634c,2,2,2,"2014-12-09 11:00:52","Add Description to known attrs
+"
+316,50222da1622de0039fc812624253f85f474d80d4,2,2,2,"2014-12-12 16:06:38","codegen: Support constant unary expressions in field initializers
+"
+317,3df87afab8c2c44e71a3fc2d017d205fe05fd188,3,5,5,"2013-03-19 17:05:26","Fixed documentation comments of the service interface and abstract class.
+"
+318,63208a89ec6446f72890d143e7a0c2ccd2a3f12d,3,5,5,"2013-03-19 21:53:20","Issue #1471310 by drunken monkey: Fixed handling of unset fields when indexing.
+"
+319,9f52c4b6c98b29363b2a0d7642523c7a26a8760e,3,5,5,"2013-03-27 09:53:44","Issue #1819412 by drunken monkey: Added clean way for retrieving an index's data alterations and processors.
+"
+320,ab0d1e66167ad9f774ff32d8dedc8b028c94e3d2,3,5,5,"2013-03-27 21:49:15","Added two @todos to includes/query.inc.
+"
+321,606b8957ec7b7101c238fabf0e0129f3689854ee,3,5,5,"2013-04-10 09:51:59","Issue #1959088 by drunken monkey: Fixed titles for contextual filters.
+"
+322,1ad331f88158929c9909938e557320f02dc8dc31,3,5,5,"2013-05-04 18:02:50","Adapted CHANGELOG.txt to 1.5 release.
+"
+323,e7a99de56196241500f28e7591dbb2e92b937b45,3,5,5,"2013-05-07 19:15:34","Fixed coding style of the SearchApiStopWords processor.
+"
+324,10c8a0af6928b2d50b162b9cc2a726a8f0e6adec,3,5,5,"2013-05-11 11:45:41","Issue #872912 by drunken monkey: Expanded and fixed test cases.
+"
+325,5352226f767144098a87782923ceee02264e9536,3,5,5,"2013-05-18 19:19:58","Issue #1992228 by drunken monkey: Fixed current search block for empty keys.
+"
+326,7d6a67c81a00690bb5d05d7b21f5d739fdb4552a,3,5,5,"2013-05-20 16:11:20","Issue #1993536 by drunken monkey, jpieck: Fixed handling of empty values in processors.
+"
+327,652670d00874828c363db803e84245d16211f84d,3,5,5,"2013-05-21 22:54:09","Issue #1697246 by drunken monkey: Added ""Parse mode"" option to views.
+"
+328,5b89d96497e1776503203269d2372ce242bc8e88,3,5,5,"2013-05-23 10:48:06","Minor documentation fixes.
+"
+329,1c135a692f1c17b2d2288e9e2c579244e67fbd74,3,5,5,"2013-05-23 11:25:15","Issue #1346276 by drunken monkey: Fixed Tokenizer should only run on fulltext fields.
+"
+330,4a85622c6c75f9f874caf0e129ac1f0cd358ba26,3,5,5,"2013-05-28 22:35:10","Improved documentation for datasource controllers.
+"
+331,f6fc322b930a359253b13c150d8c02bd62da27ea,3,5,5,"2013-05-28 22:42:48","Improved documentation for datasource controllers.
+"
+332,ebed0933b7a27014a09d73563a8b5950f397c9fe,3,5,5,"2013-05-29 11:54:34","Fixed CHANGELOG.txt.
+"
+333,3e8e97d5f66e64072ac8aae2ebf45969a0509d90,3,5,5,"2013-05-29 16:37:40","Adapted CHANGELOG.txt to 1.6 release.
+"
+334,13c305433eba8714dc5f756e3d0a3bbc378dca92,3,5,5,"2013-05-30 21:08:20","Issue #1285794 by drunken monkey: Fixed ""All"" option in Views' exposed ""Items per page"" setting.
+"
+335,263f150b3497efc0fa8728f8fa84a46083b96523,3,5,5,"2013-05-30 22:00:31","Issue #1694832 by drunken monkey: Fixed index field settings getting stale when Field API field settings change.
+"
+336,65dfba12937a209965cf87f21c01ce594d3d4a00,3,5,5,"2013-05-31 11:43:39","Issue #1288724 by brunodbo, drunken monkey, fearlsgroove: Added option for using OR in Views fulltext search.
+"
+337,847fbb7e7e5692c23ff45717d80fd88f32da813a,3,5,5,"2013-06-07 17:11:37","Issue #2013581 by drunken monkey: Added multi-valued field to test module.
+"
+338,465445e456d3575941cbf8d9d1ba71be96d1f93c,3,5,5,"2013-06-11 18:34:19","Issue #2010116 by drunken monkey: Enabled ""Index items immediately"" for the default node index.
+"
+339,56c6638c66140e6aad67ffaa509be1d12495033b,3,5,5,"2013-06-11 18:39:34","Issue #1999858 by drunken monkey: Cleaned up API documentation for data alterations.
+"
+340,e62d7d3a341450003f0d216ca796f3c710ac5b6c,3,5,5,"2013-06-12 11:56:35","Follow-up to #1288724 by drunken monkey: Set proper default for fulltext search filter operator.
+"
+341,604b69a0be3a745cd2464c80d3ff3bed8c0e948d,3,5,5,"2013-06-14 10:59:03","Issue #2012706 by drunken monkey: Fixed $reset parameter for load functions.
+"
+342,0b39c87b8d156b38109c3dc0bc8f07fc3308bc42,3,5,5,"2013-06-16 17:17:19","Issue #1837782 by drunken monkey: Fixed enabling of indexes through the Status tab.
+"
+343,c6c48e6c78a1a5f1c7cdae1db5f63f1869c67549,3,5,5,"2013-06-24 23:42:57","Issue #1310970 by drunken monkey: Added improved UI help for determining which fields are available for sorting.
+"
+344,768cd164c5dee49e51201ab2b5ea1ff0696faba8,3,5,5,"2013-06-25 00:20:17","Issue #1246998 by drunken monkey: Fixed deletion of items in read-only indexes.
+"
+345,5a4a437e61cdbd2f8303468ba09097d438f4e695,3,5,5,"2013-06-25 16:52:00","Issue #1311260 by drunken monkey: Fixed tokenizing of string fields.
+"
+346,5f56f125f590f90571df99bafa36f6fd754b3c2f,3,5,5,"2013-06-25 17:42:01","Fix documentation style of includes/query.inc.
+"
+347,7cf2093ab974524fe76168d4c3c2888e670b7fb2,3,5,5,"2013-06-25 22:18:40","Issue #2024189 by drunken monkey: Improved serialization of the query class.
+"
+348,92be3c2026f88f12c1906cf98ebfdd9086e942eb,3,5,5,"2013-06-27 22:20:54","Issue #1612708 by drunken monkey: Fixed Views caching with facet blocks.
+"
+349,c881cc14688bac7dd2ac4374f7a6d6bd1cc866d9,3,5,5,"2013-07-01 10:37:12","Adapted CHANGELOG.txt to release 1.7.
+"
+350,77f3ff5cfc41f43bc51c3ce4505ff1a1aa80e2f1,3,5,5,"2013-07-04 15:50:03","Issue #1064520 by drunken monkey: Added a processor for highlighting.
+"
+351,d2f289a7cbb1ceee8cd7c4a7ee5b799adcfbfa76,3,5,5,"2013-07-12 10:18:17","Follow-up to #1064520 by drunken monkey: Added a processor for highlighting.
+"
+352,d06b6f01ceaeb27f39438459ae2cbdf5756f643b,3,5,5,"2013-07-20 12:15:48","Issue #2041365 by drunken monkey: Fixed error reporting for the MLT contextual filter.
+"
+353,f40adad801a8ce3a306be55e90e6f678a1e773d1,3,5,5,"2013-07-26 01:54:25","Issue #2011396 by drunken monkey: Fixed support for several facets on a single field.
+"
+354,ac9aceeec855dd13764a6c9f23d3b665197bb4a0,3,5,5,"2013-07-29 09:11:21","Issue #1414078 by drunken monkey, jaxxed: Fixed revert of exportables.
+"
+355,8d7d9de4e0f17eb4b2d1f01fcac10d59ff2fbad8,3,5,5,"2013-08-14 12:39:32","Issue #2053171 by drunken monkey: Improved tests.
+"
+356,6401a43183c5ae48cbffa384ddcf6bb75c05430a,3,5,5,"2013-08-14 12:40:30","Issue #1878606 by drunken monkey: Fixed labels for boolean facets.
+"
+357,54ed9a8ed07158e91f9445f58db890ac50babfaa,3,5,5,"2013-08-14 12:42:19","Issue #2052701 by drunken monkey, erdos: Fixed cron queue state when disabling the module.
+"
+358,a7951862c71839e4d5cce2313210d91b794b424d,3,5,5,"2013-08-26 15:20:34","Issue #2057867 by drunken monkey: Fixed multiple values for taxonomy contextual filter.
+"
+359,a4aa4cb970c13ac76954384338aa9112a9fd0b07,3,5,5,"2013-08-26 15:24:42","Issue #2069023 by drunken monkey: Fixed reaction to disabled modules.
+"
+360,2bb581c42da11f9a08277b3c75526d67074a6c7c,3,5,5,"2013-08-26 22:03:35","Issue #2071229 by drunken monkey: Fixed use of core search constant.
+"
+361,f8c7037069309ca7f0183ba9716f4a73ddabf664,3,5,5,"2013-08-29 18:57:17","Issue #2077035 by maciej.zgadzaj: Fixed whitespace recognition for search keys.
+"
+362,c0391605c9ab341bf1aa98a0a1e92816c4bd48e7,3,5,5,"2013-08-29 19:04:06","Issue #1921690 by drunken monkey: Fixed stale Views cache when indexed fields change.
+"
+363,355d91878628abf5c0496c1b8cc972edafc0d933,3,5,5,"2013-09-01 10:26:00","Adapted CHANGELOG.txt to 1.8 release.
+"
+364,4f67dff8f1041aa6a1a965a66ed55b8d224bc011,3,5,5,"2013-09-03 17:25:29","Minor code style fix.
+"
+365,f3e63a6452e054d015ba2b20abc8d80bcbeea503,3,5,5,"2013-09-14 14:49:39","Follow-up to #2084953 by drunken monkey: Fixed path of links to servers in added module dependencies.
+"
+366,6382a9cbb91110081670f6acb47951712e68526e,3,5,5,"2013-09-27 14:25:52","Issue #2083481 by drunken monkey, nickgs: Added ""exclude"" option for facets.
+"
+367,9db2baff6a5dea5aeda39b3aa00a8077a4056d21,3,5,5,"2013-10-15 11:56:24","Issue #2111273 by drunken monkey: Fixed Javascript states for exposed filter operator.
+"
+368,c3c24861660eb68b5e5cbe15da18c968ac9aefe8,3,5,5,"2013-10-15 12:18:49","Small documentation comment fix.
+"
+369,1e5a75919df012747f16f5e4748e7b0bc428ab0e,3,5,5,"2013-10-22 18:03:20","Follow-up to #2111273 by drunken monkey: Fixed Javascript states for exposed options filter operator.
+"
+370,c89fd1affbdc22f46722b5396fe680e5b8ac10ae,3,5,5,"2013-10-22 18:05:05","Issue #2114593 by drunken monkey: Added list of floats to test module.
+"
+371,602f36e9085314e03aef4f7c3c7983a01ba35a69,3,5,5,"2013-10-23 12:40:42","Issue #2086783 by drunken monkey: Removed Views field handlers for ""virtual"" fields.
+"
+372,dde60e97d234a84d4504f6e6fa2aa93dadda275b,3,5,5,"2013-10-23 12:44:20","Adapted CHANGELOG.txt to the 1.9 release.
+"
+373,40f2ca089b1afec3842f70653aa6150d4ceff273,3,5,5,"2013-10-24 16:04:19","Issue #2100191 by drunken monkey, Bojhan: Added an admin description to the Search API landing page.
+"
+374,5bbf737c3f2d05aee50793fc167ec48e169c885a,3,5,5,"2013-10-28 10:27:10","Issue #1956650 by drunken monkey, wwhurley: Fixed trackItemChange not checking for empty $item_ids.
+"
+375,1bd1469e009ba4cd77d4d2496cc4d3a3053ad865,3,5,5,"2013-11-01 20:23:07","Follow-up to #2110315 by drunken monkey: Fixed Views filter for non-Field API term references.
+"
+376,db31e0ca223c04d966363ccfaa279fd3bdc6ac32,3,5,5,"2013-11-03 07:39:03","Issue #2115127 by drunken monkey: Fixed cron indexing logic to keep the right order.
+"
+377,db1d84f299ef6853256754a4afa109f1345a3104,3,5,5,"2013-11-06 15:27:57","Issue #2100199 by drunken monkey: Merged index tabs for a cleaner look.
+"
+378,a7882f5e743335b3cfab57d8ef8663211a11eabb,3,5,5,"2013-11-07 10:52:10","Fixed one comment line length.
+"
+379,b7795f2b71fd84c710f535b4ec4770698117baa6,3,5,5,"2013-11-07 15:38:24","Issue #2100193 by drunken monkey: Turned operations in overview into D8 dropbuttons.
+"
+380,725819d618d7f1bb614ca64968c08f60cf52d989,3,5,5,"2013-11-07 16:07:12","Issue #2100231 by drunken monkey: Renamed ""Workflow"" tab to ""Filters"".
+"
+381,8723c72d6be368e3e25dd46aa76d26aa638cf6eb,3,5,5,"2013-11-08 08:06:48","Issue #1961120 by drunken monkey: Fixed Views handling of short fulltext keywords.
+"
+382,4ec13443efa55e0743efb2d527b6437a7d26a277,3,5,5,"2013-11-11 09:22:01","Removed left-over CSS and applied some documentation fixes.
+"
+383,cb74b848366049f28e148795b8090ed344ca6a4b,3,5,5,"2013-11-13 10:54:06","Some doc style fixes.
+"
+384,3335094e0d9cc31a6b656e4ad6c1f9c0da14c881,3,5,5,"2013-11-13 16:50:13","Some doc comment fixes for includes/query.inc.
+"
+385,e456c9ec18977dafc792e9eb50fd6ef25089ed02,3,5,5,"2013-11-14 11:32:47","Some doc comment fixes.
+"
+386,ffb1ae2b614a063f1f0ff903d7048a30c395adeb,3,5,5,"2013-11-15 10:33:29","Issue #1551302 by drunken monkey: Fixed the server tasks system.
+"
+387,643d50b3ee817170f17d94e9c9de8689883e64f2,3,5,5,"2013-11-15 10:50:17","Issue #2128001 by drunken monkey: Fixed the logic of the ""contains none of these words"" fulltext operator.
+"
+388,35c829f98e25de82d0b95e615abf5595b0ee3cad,3,5,5,"2013-11-15 16:15:31","Minimal doc comment fix.
+"
+389,a9295a178542d79e41d8345a91cdb888f9cdf5c2,3,5,5,"2013-11-19 08:40:52","Some documentation and other comment fixes.
+"
+390,9dd2634aacbbe64ca2c623042c8ab5664ac6eaee,3,5,5,"2013-11-19 08:49:11","Follow-up to #2135363 by drunken monkey: Fixed logic of the ""skip result count"" option in Views.
+"
+391,d4a12a94eee9d2e846f2b5afade9f310f527038b,3,5,5,"2013-11-25 09:18:08","Issue #2136019 by drunken monkey: Fixed mapping callback for taxonomy term facets.
+"
+392,ce8a47f990fb0e3f710328f865ae8430176ec8ca,3,5,5,"2013-11-27 08:27:03","Issue #2139215 by drunken monkey: Fixed $context parameter of batch callback.
+"
+393,b91d5f5978a3d90b66bb0709d6a2a1c9713fc680,3,5,5,"2013-11-30 18:12:33","Doc comment fixes for the implemented entity CRUD hooks.
+"
+394,328d4c63b94e8c6b1ddd38c782113e148694dd73,3,5,5,"2013-12-05 08:04:10","Issue #2139239 by drunken monkey: Fixed highlighting for the last word of a field.
+"
+395,88c559f24010dd4cb5d115fa14e8840e2dfa44bd,3,5,5,"2013-12-09 08:21:37","Issue #2100671 by drunken monkey: Fixed stopwords processor to ignore missing stopwords.
+"
+396,7167bdcd7d442c6d80abe9a2df7bf57ffdaaa3e0,3,5,5,"2013-12-09 08:22:33","Issue #2144531 by drunken monkey: Fixed cloning of queries to clone filters, too.
+"
+397,3007d21fd5599c913b4c0a37431e297ea490cac7,3,5,5,"2013-12-09 09:07:36","Issue #2130819 by drunken monkey, Bojhan: Added UI improvements for the ""View"" tabs.
+"
+398,4bc2ea2d63aa3b2307d8954f15707d832c3c562d,3,5,5,"2013-12-09 09:56:39","Adapted CHANGELOG.txt to 1.10 release.
+"
+399,8a96aae1bc5ae80ea3e3197678049be2ed1e0817,3,5,5,"2013-12-09 09:57:13","Added dev release to CHANGELOG.txt again.
+"
+400,38ac5e56a3410769ed288122a8f6013af203015a,3,5,5,"2013-12-11 11:23:11","Follow-up to #2130819 by drunken monkey: Fixed service class description link in server view.
+"
+401,0773327a0f169f69d00dfc85eee0cfea3b40dd14,3,5,5,"2013-12-13 10:25:50","Issue #2150347 by drunken monkey: Added access callbacks for indexes and servers.
+"
+402,821537ddd59dd4ded715583dee00526bd1904cdf,3,5,5,"2013-12-24 19:06:20","Follow-up to #2118589 by drunken monkey: Fixed false error messages when ""Node access"" data alteration is disabled.
+"
+403,120a45c2148c0a0bbac22d0dfb55c9909b14f7ff,3,5,5,"2013-12-25 10:26:24","Issue #2155575 by drunken monkey: Fixed incorrect ""Server index status"" warnings.
+"
+404,37a848bb108d6b8540f0ae03ce56febaf892e959,3,5,5,"2013-12-25 10:27:53","Issue #2155127 by drunken monkey: Clarified the scope of the ""Node access"" and ""Exclude unpublished nodes"" data alterations.
+"
+405,4bf28b812b916ff5884e6d6604b88ef43bc06c09,3,5,5,"2013-12-25 10:33:43","Issue #1879196 by drunken monkey: Fixed invalid old indexes causing errors.
+"
+406,9d3ad5f95008c619b911c60124fa050f81113e9e,3,5,5,"2013-12-25 10:38:49","Adapted CHANGELOG.txt to 1.11 release.
+"
+407,c4114defe6261bdf210402e05baf6fe3abb1ae25,3,5,5,"2013-12-25 10:39:11","Back to dev version.
+"
+408,08a16821d8523bf24a05510568bbb98ee5b9eded,3,5,5,"2013-12-25 12:33:04","Issue #1227702 by drunken monkey: Improved error handling.
+"
+409,fcb64742e9fd38e7fe0729c7835acbf0c4c6312c,3,5,5,"2013-12-25 12:42:35","Issue #2150779 by hefox: Fixed ""Overridden"" detection for index features.
+"
+410,6cc53e4f56fc3fae398fa65e93ed51b3d6a20c06,3,5,5,"2014-03-07 17:02:13","Fixed small comment typo.
+"
+411,3959b06be79ba2f7f311929940e7d773fa61e871,3,5,5,"2014-03-10 16:22:52","Follow-up to #2168713 by drunken monkey: Fixed highlighting of keys containing slashes.
+"
+412,a001ef501cab43b70bdf8c10319c44d68ac38f8c,3,5,5,"2014-03-11 12:37:50","Issue #2198261 by drunken monkey: Fixed fatal error on view editing.
+"
+413,a12513ed25206e5a76a79a872fba64fbc7ea3d93,3,5,5,"2014-03-17 16:50:41","Corrected a tiny comment typo.
+"
+414,56d91816566958d613cfae1e60e8fe0f6a382bb0,3,5,5,"2014-03-19 12:21:43","Issue #2187487 by drunken monkey: Fixed admin summary of language filter.
+"
+415,67c8e2179b7c9627ad096ffb53d873f6faa11e58,3,5,5,"2014-04-13 21:31:49","Issue #1888174 by drunken monkey, ipallian: Fixed problems with date facets.
+"
+416,73741e4931e034a784881677c879e4610b8ced13,3,5,5,"2014-04-14 09:46:48","Issue #2219563 by drunken monkey: Added __toString() methods for queries and filters.
+"
+417,e424e73dcd7151324c3afaa9ab977fda80b73fce,3,5,5,"2014-05-12 15:41:02","Issue #2169455 by drunken monkey: Fixed ""undefined index"" in search_api_update_7116().
+"
+418,5092cf133b916b8f1dab7d6e637d68f5da3f6815,3,5,5,"2014-05-12 16:26:16","Issue #2198791 by drunken monkey: Fixed empty Views entity filters.
+"
+419,67bc21ab33d3a7851a22e04320fed1fe331b5bf0,3,5,5,"2014-05-12 16:29:16","Issue #2179755 by drunken monkey, fago: Fixed whitespaces after HTML filter.
+"
+420,ca46ff9f73bdf27fc29c609716ef39bc7512ad28,3,5,5,"2014-05-12 16:33:22","Issue #2135697 by drunken monkey: Fixed handling of HTML attributes in the Highlighting processor.
+"
+421,bfbe1ac40f812793eb247b418c7dbca97c9b1700,3,5,5,"2014-05-12 18:08:07","Issue #2219553 by drunken monkey: Fixed Views fulltext filter operators.
+"
+422,950e379f5f53df01811c1734ba4acb80ff219a46,3,5,5,"2014-05-23 11:12:57","Issue #2265349 by drunken monkey: Marked _search_api_settings_equals() as deprecated.
+"
+423,43cca3344d62cf401155ae60e77db98ef0256a18,3,5,5,"2014-05-23 11:14:47","Adapted CHANGELOG.txt to 1.12 release.
+"
+424,99b5e4bd314734a3dbe82caf8230c6a03ddb560a,3,5,5,"2014-05-23 11:15:20","Back to dev version.
+"
+425,883af6561f4436397e513ae72f8b690439b69375,3,5,5,"2014-07-09 12:39:38","Issue #2278791 by drunken monkey | tksmd: Fixed excerpt when searching single CJK word.
+"
+426,f87546af1b4a96ed07d716e0cd32a603ac4e6d23,3,5,5,"2014-07-10 10:10:00","Fixed signature of the SearchApiViewsQuery::getOption() proxy method.
+"
+427,717d2fbead6c1560599907ee5a5899467085ff42,3,5,5,"2014-07-23 10:33:42","Adapted CHANGELOG.txt to 1.13 release.
+"
+428,c705d48ec2c0f974c34423e244388eb44d729d0a,3,5,5,"2014-07-23 10:39:35","Back to dev version.
+"
+429,b28315000294d118f2fa8c1547ae58e24026cb07,3,5,5,"2014-08-19 10:41:39","Issue #2278737 by drunken monkey: Fixed use of multiple Views fulltext search filters.
+"
+430,04836364d9345d495fe00aa1e06f4c3503bc18c3,3,5,5,"2014-09-08 14:57:30","Issue #2305627 by drunken monkey, cpliakas: Fixed date facets not displayed when the configured granularity is larger than the calculated granularity.
+"
+431,ccc5ad71f9b1aa5bad97291997710009022f942b,3,5,5,"2014-09-08 15:01:18","Issue #1372092 by drunken monkey: Added an error message when no service class is available when creating a server.
+"
+432,74d16a89e235ae077bd310f5f5653213045688c6,3,5,5,"2014-09-17 13:47:54","Issue #2305755 by drunken monkey, pfrenssen: Fixed invalidation of the stored index fields cache.
+"
+433,157758d2ef767bc92040b99f7f79de2384f58ee9,3,5,5,"2014-09-22 13:21:28","Fixed error message in search_api_search_api_query_alter().
+"
+434,fc4c7f51e9f333bddde96a5da8c15e53d3ae3a41,3,5,5,"2014-10-13 12:30:41","Issue #2174163 by drunken monkey: Fixed detection of field type changes by data alterations.
+"
+435,fc21d266c205497596bbc4aecb0a2b62558d0e0d,4,6,6,"2011-02-05 11:17:27","updated licenses
+"
+436,3fa1fbf35a2e750c3b932c7721f5b820ed518adf,4,6,6,"2011-02-05 11:17:42","updated licenses
+"
+437,8e0167a91d4717daead6e14541c7655ee45c1430,4,6,6,"2011-02-05 11:17:57","updated licenses
+"
+438,d5323221449f55323f7b3558350f3e078007ac1c,4,6,6,"2011-02-05 11:18:14","updated licenses
+"
+439,895ccdf8615c0b9bbbef60dbfc88614a6f27926b,4,6,6,"2011-02-05 11:18:26","updated licenses
+"
+440,a449a6993aa2850d828e87676210224b6f24d35b,4,6,6,"2011-02-05 11:18:48","updated licenses
+"
+441,512b4f8b9423e962db00dd90b7a89dbf43c6fe9a,4,6,6,"2011-02-05 11:20:49","updated licenses
+"
+442,d698699901d72f73212e302ad715c97a4c4fc10e,4,6,6,"2011-03-19 13:17:58","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+443,d26352162c497083a294b999126f6a23bb5a45f3,4,6,6,"2011-03-19 13:18:41","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+444,b784b84322f3113e43fe4cade915d18f74a85132,4,6,6,"2011-03-19 13:21:29","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+445,ba424c200bb5b1321f2a8872dfbb1b6f95e2eab0,4,6,6,"2011-03-19 13:21:43","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+446,05f4312a0fd7a993277c47362726bb027282a198,4,6,6,"2011-03-19 13:22:05","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+447,8ddd5253544c01c22d08c634b08b7fab75c86864,4,6,6,"2011-03-19 13:22:25","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+448,94a5344305fb5e4def14642eea2ca69dbd87511e,4,6,6,"2011-03-19 13:22:47","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+449,ad97977bc5310342aead2139c86637098d1e2e94,4,6,6,"2011-03-19 13:24:43","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+450,6468e8aa21f0fcf95bdd3eebb2e5109ba723621b,4,6,6,"2011-03-19 13:25:16","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+451,906c7a7d7f8b0b325111b4cfb5748904bce7074b,4,6,6,"2011-03-19 13:37:05","Adapts the namespace of all TapiJI plug-ins to org.eclipselabs.tapiji.*.
+"
+452,a0a3baeaeaf96094b7b174ad2faaa48de185e50e,4,6,6,"2011-03-23 13:05:16","Fixes bug in generation of Java bundle key hovers.
+"
+453,c2fb7797cc536cb8d091b5bea942bd7664f40a74,4,6,6,"2011-07-20 14:25:55","Fixes minor bugs.
+"
+454,b6145ff411edfdd4fe253743c393c3db6ac5241e,4,6,6,"2011-07-20 15:10:56","Fixes minor bugs
+
+"
+455,25b42d9807047c9d58eb2035f38554383de318d7,4,6,6,"2011-07-20 15:11:38","Fixes minor bugs
+"
+456,ef188634902f882c9f95c1d753a5b3bf50c86b1c,4,6,6,"2011-07-20 15:12:08","Fixes minor bugs
+"
+457,4691277b8848f49aae42a49ae19df8e14e6322d5,4,6,6,"2011-07-20 15:13:28","Fixes minor bugs
+"
+458,4dfb9b11c8a8ccfca75bb282c1b7ddef04c4e1c7,4,6,6,"2011-07-23 13:25:10","adapt plugin versions
+"
+459,d23a54277258ea0cd8b255e85e1550de118c65ff,4,6,6,"2011-09-17 14:48:00","Releases V0.0.2
+"
+460,de3323d5b23516fb77ccc8d681140ed8fbef2826,4,6,6,"2011-11-14 19:52:37","Fixing typo and minor bug.
+"
+461,96002c8a5530eeb589fdf2cfaac811c6509b3569,4,6,6,"2011-11-16 22:51:43","Fixes configuration bugs.
+"
+462,2e476072a7ab2b962887e15502e91dcaf7158bf4,4,6,6,"2011-11-27 21:21:47","Adapts product configuration.
+"
+463,ab0dc4fa8e25c5273c5143de51b50f490fba77ca,4,6,6,"2011-11-28 20:02:35","Fixing resource save error.
+"
+464,8fb56b3ec6696cdb34f9623b39e1bbd9d884d788,4,7,7,"2012-02-06 20:25:18","Creating private branch for the implementation of key refactoring functionality.
+
+"
+465,f774c04eb4469403cda27764a58ac87bcf2c6dab,4,7,7,"2012-03-17 17:16:53","removes  and  plug-ins
+"
+466,8e28a45ac0adc8040942b3923f4b4fecb9ccaf92,4,7,7,"2012-03-17 17:20:52","removes essiembre resource bundle editor
+"
+467,f932807d5c49548c1bbbdc6df1e949fe196e6cc5,4,7,7,"2012-03-17 17:33:47","adds the plug-ins  and
+"
+468,3c558b6bd33611c366f4299f9e639288a7e47d38,4,7,7,"2012-03-17 17:48:04","adds missing folders in  plug-in
+"
+469,361f6ac51d73daf352fe42b8e2f164dc9a6775d5,4,7,7,"2012-03-17 17:50:26","adds missing icons folder for
+"
+470,a5e981d512d6b8983b4adcd85f75dd459271595f,4,7,7,"2012-03-17 18:04:16","removes ui core
+"
+471,d2a76d6b71ad0a40daa420d1b4ca447f8fb3b0de,4,7,7,"2012-03-17 18:06:13","adds ui core
+"
+472,a57bee46d7db4cd6257d45a0733cf575602b0bb3,4,7,7,"2012-03-18 17:05:27","Creates `stable` branch.
+
+The stable branch is copied from `issue-32` and used for getting a stable release that is based on the babel editor plug-in.
+
+"
+473,77b746d68550cbfe0ed00f26db032fc2130d1970,4,7,7,"2012-03-18 17:06:30","Creates branch `master`
+
+"
+474,1dc43f3412b46422dfa4c4a29bc520ff41a5601e,4,7,7,"2012-03-22 12:18:24","Adapts babel core for supporting a Compiler compliance level of 1.5.
+
+Revoves @Override annotation that lead to export errors with a configured compiler compliance level of 1.5.
+
+"
+475,71c4f371b028394948f86d8064228e29fb93f671,4,7,7,"2012-03-22 18:28:09","Removes unused dependencies/imports.
+
+First step of cleaning up the current codebase. All Java imports have been revisited and organized.
+
+"
+476,84db103b6f7e6dcca997a34175a4891f1fa18d51,4,7,7,"2012-03-23 08:29:13","Prototypes marker update approach.
+
+Gets the markers current position information from the abstract marker annotation model.
+
+"
+477,6c9b915e74ffa69f81095dbbecc2d3c998cb2766,4,7,7,"2012-03-23 18:20:36","Cleans up plugin configuration files.
+
+Cleans up build properties.
+
+"
+478,b788e8a0e8fa435fb665fa8d13117d597f0c82fc,4,7,7,"2012-03-28 09:41:40","Merges  into .
+"
+479,736edba1d834a660bb01e9b9704cd7d7b310a097,4,7,7,"2012-03-29 18:13:29","removes the outdated package namespace `at.ac.tuwien.inso.tapiji`.
+
+"
+480,566090b5a7d4f50ac29e07c935fec79495458c24,4,7,7,"2012-03-29 20:20:35","Adapts the translator for using the messages editor.
+
+"
+481,87fac898aa1b973c701daaa8c96a13442cbf72fe,4,7,7,"2012-04-01 15:05:51","Defines the babel editor dependency to the PDE as optional.
+
+Fixes Issue 45.
+Fixes Issue 51.
+Uses Java reflection for accessing PDE related classes. If the PDE plug-in isn't loaded within the currently executed Eclipse instance, the Babel editor skips checks for Fragment projects.
+Also fixes a minor typo within the babel editor UI.
+
+
+"
+482,1b8bb690889cf66be91235c8c4909f572768a505,4,7,7,"2012-04-03 13:21:18","removes remaining eclipselabs package stubs.
+
+"
+483,1aa515210315bead423699472250e4b599a135ab,4,7,7,"2012-04-03 13:40:29","Renames also the plugin directories.
+
+
+"
+484,6fd08d88f3724a73261ed91defe3c1881699fe9e,4,7,7,"2012-04-04 19:29:50","Removes the unused completion proposal `ValueOfResourceBundleProposal`.
+
+"
+485,fd6b6d067bd20b0b9a2aa76fe529252f0356b780,4,7,7,"2012-04-04 20:46:24","Fixes some critical auto-complete issues.
+
+Addresses Issue 62
+Open issues:
+ * Calling auto-complete in the middle of a string, leads to wrong outcome.
+ * Calling auto-complete in bundle context (without string literal context) leads to wrong result.
+
+
+"
+486,7c085d36db29b5d796869c8e3c8d85b93c7bb4c3,4,7,7,"2012-04-04 22:05:35","Fixes further critical problems with auto-completion.
+
+"
+487,2cfb74fc772440dcad0f75f1882b5959240139ce,4,7,7,"2012-04-04 22:57:55","Final cleanup of the java auto-complete functionality.
+
+Open point:
+ * use start and end session callbacks
+
+"
+488,4024e350d765be2eb312369b2c68cf16c1739151,4,7,7,"2012-04-05 09:01:11","Disables tapiji auto-complete, when the user types non-string-literals.
+
+Fixes Issue 63
+
+"
+489,02e52f66e05400002b043794d7fcd9d165239c2a,4,7,7,"2012-04-10 18:49:38","increases generation performace of auto-complete proposals.
+
+Fixes Issue 62.
+
+"
+490,f6892a2e31f7db9fb37caf38b66826ffb496deca,4,7,7,"2012-04-20 18:09:08","Renames `StringLiteralAuditor` to `I18nBuilder`.
+
+Addresses Issue 72.
+
+"
+491,4b4b7653e10717aa879e06f46a4c15f741ff80f0,4,7,7,"2012-04-20 22:22:26","Encapsulates extension point management into `ExtensionManager`.
+
+Fixes Issue 72.
+
+Applied changes:
+ * Extract extension point handling into the new static manager class `ExtensionManager`
+ * Removes the static initialization block from `I18nBuilder`
+
+"
+492,f6ea68ffa03cf7a0cbf75eab3778034632744f46,4,7,7,"2012-04-20 22:45:28","Adds missing code license headers.
+
+Adresses Issue 75.
+
+"
+493,eb9976a662b9bec6fb38929e2b262e24b3d2fc73,4,7,7,"2012-04-21 12:48:52","Renames `tapiji.tools.java` to `tapiji.tools.java.ui`
+
+"
+494,9b53aafc716b44c0d905ec60c44c4f266d718131,4,7,7,"2012-04-21 12:50:49","Adds the new project `tapiji.tools.java`.
+
+"
+495,0bf9e191fdd374ddc4484ffdf0294e2fd9b79877,4,7,7,"2012-04-21 14:12:13","Separates core and ui concerns for the java extension plug-in.
+
+"
+496,465f1cf4f6add88ddfc6ae3ca724edf3e296b673,4,8,8,"2012-04-22 10:59:29","Adapts license headers.
+
+Fixes Issue 75.
+Adds Contributors section.
+"
+497,e06c67f1d3506ce057844810350babaecc50b5db,4,8,8,"2012-04-22 11:18:45","Adds contribution comments for Michael Gasser.
+
+"
+498,e4d34d3340b9467ac3d73b3c13f8dde20b428006,4,8,8,"2012-04-22 12:14:52","Cleans up `tapiji.tools.java.ui`.
+
+"
+499,37d68385670d60a4bb73d2947e9da1eef0173c6b,4,8,8,"2012-04-22 12:52:12","Cleans up build stragegy.
+
+"
+500,04e5bace99ae09e0b43d3eea7806ca6bf654da94,4,8,8,"2012-04-22 13:14:06","Improves performance of building resource / cleans up projects.
+
+Fixes Issue 76.
+
+Touches resources after creating a new resource bundle entry.
+
+"
+501,a89de6d79c53874ac8b31c2f64e4e426eaa997d9,4,8,8,"2012-05-06 18:02:55","
+"
+502,8484cd9b9ed5b4e01aab4d2d58a4585d5aa2be64,4,8,8,"2012-05-06 18:09:48","Separates UI and non-UI concerns for the core plug-in.
+
+Contributes Issue 73.
+ * Adapts the Activator to extend `Plugin` instead of `AbstractUiPlugin`
+ * Moves marker and nature management to `core.ui`
+
+"
+503,a40c1ef1aebb6263f4f32c6d36a8c12be6423338,4,8,8,"2012-05-06 18:25:42","Adds missing resources to translator plug-in.
+
+"
+504,bf51cd67ad8c2ecbf3f340d840dadcb44c4949b3,4,8,8,"2012-05-08 21:07:28","Fixes marker update problem in Messages editor.
+
+Fixes Issue 79.
+
+"
+505,258a0004d516ffeeb9ea49ac6a9726af79027389,4,8,8,"2012-05-08 21:22:55","Minor clean up.
+
+"
+506,80f75e3b338955c6f977a32a6de460682eb34034,4,8,8,"2012-05-08 21:24:56","Updates license headers.
+
+"
+507,7d2794b7554e237dd5ec51a178f8c815e01a9d0b,4,8,8,"2012-06-15 09:07:34","Creates new master from stable.
+
+"
+508,a307fbcc9de63945fea3d0dc298ea14eaf59cf5b,4,8,8,"2012-07-04 15:36:33","Deletes branch master.
+
+"
+509,39982c0bc8abc5b7bfa8731f6df65037727297f4,4,8,8,"2012-07-04 16:08:47","Renames branch 'master_tmp' to 'master'.
+
+"
+510,f5ff5b55dbe1c786acddbe835ed1b6ef824e0c9e,4,8,8,"2012-08-26 14:35:20","Removes out-dated LGPL sources and adapts copyright headers.
+
+The wording ""TapiJI"" located in the copyright header has been replaced with a list of all contributors that have modified a particular file.
+
+"
+511,2a5cdb2e4e6e9a0b6a220b9ede279b087931499a,4,8,8,"2012-09-11 13:26:12","Fixes bugs in nature assignment.
+
+"
+512,a43b27df5dc74f1c39c7219ac7142ba75368cb4d,4,8,8,"2012-09-11 14:11:56","Fixes bug in CreateResourceBundleEntryDialog.
+
+"
+513,7f961184225354a829401daa9cec28a21bef0144,4,8,8,"2012-09-14 13:56:57","Fixes startup exception in rbmanager plugin and detects bundles during startup.
+
+Fixes Issue 87
+References Issue 50
+Fixes a excetption within the ResourceBundleDetectionVisitor that occurred during startup. Moreover, the TapiJI core triggers a search for Resource bundles directly after startup.
+
+
+"
+514,a0fa1c4621da229178a184a3d2ef1cd0a659c1c1,4,8,8,"2012-09-24 10:07:01","Fixes bug in loading resource bundles.
+
+During startup some resource bundles are not detected. The reason therefore was an inproperly handled exception. This change adapts exception handling as well as bundle loading.
+
+"
+515,8aae1912452031ca5dc8da6a7bd8d4466aff950a,4,8,8,"2012-09-25 21:24:12","Merges revisions 500-560 from stable into master branch.
+
+"
+516,eb607b04c22f826837484e763caead59ae68200e,4,8,8,"2012-09-25 22:00:34","Merges stable into master.
+
+
+"
+517,5c03cffef065ade846eb9b99ee16bcd5e047d633,4,8,8,"2012-09-25 22:04:50","Merges stable into master.
+
+"
+518,08654ce6854a8728cc01cec2e15908d162a35fa6,4,8,8,"2012-09-25 22:08:54","Merges stable into master.
+
+"
+519,eacef5292eec40870a44812d0389293a21a7fc49,4,8,8,"2012-10-15 14:42:57","Fix NPE during startup of translator application.
+
+Fixes NPE during lookup of project name for RCP translator.
+
+"
+520,c3ffab2b941024491f3c7bf5498973e81e53e272,4,8,8,"2012-10-16 14:53:14","Update about.html files.
+"
+521,cb8a05ec055238c44e99117b60bbda1a394a5082,4,8,8,"2012-10-16 15:39:16","Remove org.eclipse.babel.tapiji.translator.rbe plug-in.
+
+
+"
+522,c930b13e2e1515c4e4b0039ff1b136fab3635483,4,9,9,"2012-10-22 11:55:06","Merge branch 'stable' into branch 'master'
+
+Conflicts:
+	org.eclipse.babel.core/src/org/eclipse/babel/core/message/internal/MessagesBundleGroup.java
+	org.eclipse.babel.core/src/org/eclipse/babel/core/message/strategy/PropertiesFileGroupStrategy.java
+	org.eclipse.babel.tapiji.translator.rbe/META-INF/MANIFEST.MF
+"
+523,2b6613770cbf5e6d5ac6a99dae5325a64a35d2f4,4,9,9,"2012-10-22 12:14:16","Replaces new PDEUtils merged from stable branch with old PDE Utils.
+
+We prefer using the new PDEUtils class written by Stefan Reiterer. But since this class brings us a direct dependency to the PDE package, we must replace it with the old implementation. Otherwise, the translator cannot use it, because it runs outside the PDE environment.
+"
+524,1e82a31319c2613173fe03bb625aec866cffefd4,4,9,9,"2012-10-22 14:34:28","Adds gitignore file.
+"
+525,e99464c45f8394708291498864de1c18f183434c,4,9,9,"2012-10-23 15:18:16","Removes the outdate plug-in 'org.apache.commons.io'.
+"
+526,e865dfb1f190d36243c09c317dfc1f0c369178c9,4,9,9,"2012-11-09 12:14:39","[RAP] Removes outdated encryption project from warfile definition.
+"
+527,cf7bf0118558d283a54592a7eb4beb37ac4233a3,4,9,9,"2012-11-09 12:46:17","Massive whitespace replacement (kill trailing spaces & spaces instead of tabs)
+"
+528,d5d80e1722cef18e5a8b629eb3f75bd846818624,4,6,9,"2012-11-09 10:20:05","Define gitignore rules for project binaries and local settings.
+
+Cleans up plug-in projects by removing `.setting` folders. For preventing the checkin of binary data and local settings, a `.gitignore` file has been specified.
+(cherry picked from commit 604412a22d0e7fc0480489a76affe0c55d885d06)
+
+Conflicts:
+
+	.gitignore
+	org.eclipse.babel.editor/.settings/org.eclipse.jdt.core.prefs
+"
+529,bb33f4f482c3914efb4b2498ec2d34f79beff145,4,6,9,"2012-11-09 11:23:01","Removes icon folder from the tool's core plugin.
+
+Since all UI specific concerns are part of the *.ui plug-ins, the icon folder within the tool's core plug-in does not fit the coding conventions and must be removed.
+(cherry picked from commit 10f451944f14261f2d425dd085705e2db00df76b)
+"
+530,663575068c45608bfd45348ec98d1a26834cbb51,4,6,9,"2012-11-09 11:52:38","Cleans up build properties and plugin description files.
+
+Based on previous refactorings, build properties got out-of-sync with the plug-in content. This change also cleans warnings from `plugin.xml` files.
+(cherry picked from commit 9ae85d634223cec5c208e29c63b81c773fccf0be)
+"
+531,2d9369db681af2deef27ea4cf3ef965e6c4b5159,4,6,9,"2012-11-09 12:10:45","Remove unused icons from org.eclipse.babel.tapiji.tools.core.ui
+
+The tool's core.ui plugin contained various unused icons. Some of them were original photoshop drafs and others are relicts from prototypical enhancements. This change removes all unused and temporal icons.
+(cherry picked from commit 7cf7e3c7e6fb8f0c983929bda0a281a8d18efe91)
+"
+533,b88e6a1a3e700c0c36522b64474b5df624bcc527,4,9,9,"2012-11-11 16:21:42","Removes outdated dependency to org.apache.io lib.
+"
+536,3384d37a5254d5b232d2912ad67988ff505fb263,4,9,9,"2012-11-05 16:51:14","Fix error while restoring UI state if memento files are not present.
+
+If the Eclipse IDE is started the first time with internationalization support, the TapiJI managed memento files are not present within the workspace. This changeset prevents an exception during startup if the state file is not found.
+(cherry picked from commit 9a915cc7ecb994b9aef66a7648592ed36e27b89b)
+
+Conflicts:
+
+	org.eclipse.babel.tapiji.tools.core.ui/src/org/eclipse/babel/tapiji/tools/core/ui/ResourceBundleManager.java
+	org.eclipse.babel.tapiji.tools.core.ui/src/org/eclipse/babel/tapiji/tools/core/ui/decorators/ExcludedResource.java
+	org.eclipse.babel.tapiji.tools.core.ui/src/org/eclipse/babel/tapiji/tools/core/ui/memento/ResourceBundleManagerStateLoader.java
+	org.eclipse.babel.tapiji.tools.core/src/org/eclipse/babel/tapiji/tools/core/Logger.java
+"
+537,8cd014851fb7a6e488abe13f495bd02b9c80e003,4,6,6,"2012-11-15 15:10:01","Fixes bug in I18nBuilder.
+
+If a full build is triggered, then only errors from the last parsed file were reported. This change fixes that problem.
+"
+538,7c2269be58efdf853a632bbb67b2d4f2f42f9786,4,6,9,"2012-11-15 17:56:27","Removes outdated dependency to org.eclipse.pde.core from the message editor's core plug-in.
+(cherry picked from commit 1cb6c1c78aa88192b2a65c93ef3689d38cdf539c)
+
+Conflicts:
+
+	org.eclipse.babel.core/META-INF/MANIFEST.MF
+"
+539,fd80155a60d24bee03f7ca0ebeca8d564c87e763,4,6,9,"2012-11-19 14:07:19","Cleans up build scripts.
+(cherry picked from commit 217a1d57903e87fc44a3ece7a69940943f33cb9f)
+
+Conflicts:
+
+	org.eclipse.babel.core/src/org/eclipse/babel/core/message/resource/ser/PropertiesDeserializer.java
+	org.eclipse.babel.editor/build.properties
+	org.eclipse.babel.tapiji.tools.build/build/maps/tapiji.map
+"
+540,04c30d52addc9204dcf0c535de49bb2d912259c3,4,6,9,"2012-11-19 14:09:10","Cleans up build information for the tool suite's core plug-ins
+(cherry picked from commit 7aecbae043424f907a2445c85e9f98b1ecaa8792)
+
+Conflicts:
+
+	org.eclipse.babel.tapiji.tools.core/build.properties
+"
+541,ee5cfd67bbc391debc3e80baffc322f9aa4961ca,4,6,9,"2012-11-19 14:26:08","Defines build process for babel tool suite
+(cherry picked from commit 263c922fbabc49b79e1f4253a271fe842307aa27)
+
+Conflicts:
+
+	org.eclipse.babel.tapiji.tools.build/build.properties
+	org.eclipse.babel.tapiji.tools.build/customTargets.xml
+"
+542,fc189d16c1df40cee26e19fcec95cecf2d93d875,4,6,9,"2012-11-26 15:58:58","Adds build support using tycho and maven
+
+This changeset adds the following new projects:
+ * `org.eclipse.babel.tapiji.tools.parent`: Encapsulates the root pom file for maven and all commom pom settings
+ * `org.eclipse.babel.tapiji.tools.target`: Specifies the target platform used for building the babel tool suite
+
+Moreover, each project has been enhanced with a pom build definition that inherits from the pom located in `org.eclipse.babel.tapiji.tools.parent`.
+(cherry picked from commit 48aed06137da06e7adaa9ba66b0ea674d33a2a24)
+
+Conflicts:
+
+	.gitignore
+	org.eclipse.babel.core/.classpath
+	org.eclipse.babel.core/.project
+	org.eclipse.babel.core/build.properties
+	org.eclipse.babel.editor.nls/.project
+	org.eclipse.babel.editor/.classpath
+	org.eclipse.babel.editor/.project
+	org.eclipse.babel.editor/build.properties
+	org.eclipse.babel.tapiji.tools.feature/.project
+	org.eclipse.babel.tapiji.tools.java.feature/build.properties
+"
+543,001f4f784c7da790e303e8af39e18b1b9e563f9e,4,6,9,"2012-11-27 14:42:16","Clean up of maven pom configuration
+(cherry picked from commit d2988fea31413ad82247042a9c87070dbb02776d)
+"
+544,5392bbbfc10ba4e8ef8058ef3abe122c5963d8fb,4,6,9,"2012-11-27 14:50:31","Removes outdated PDE build project
+
+The PDE build based buildscript project is outdated now. It has already been replaced by a tycho based build approach. This change removes the outdated project files.
+(cherry picked from commit 40ac64a981cd719c07a30eb2bbb0c67a4e82a1a0)
+"
+545,cd5ecbb4afca154d3a6a3485198c2dd4f33224b4,4,6,9,"2012-11-28 13:01:18","Adds missing about.html and epl-v10.html files
+
+Moreover, about.html and epl-v10.html are bundled with source and binary distributions.
+(cherry picked from commit 43156aea529bec140af112d7b27357a719d7a3af)
+
+Conflicts:
+
+	org.eclipse.babel.core/build.properties
+"
+546,910b7e5bf582c4a6bb8a55bc2129a968e0aacb64,4,6,9,"2012-11-29 10:13:06","Lift root pom into the repository root directory.
+
+Provides a more transparent architecture for tycho build scripts. Moreover, missing license headers are added.
+(cherry picked from commit 6e1f55383f0af834b148f77992d251cc5c5286b7)
+
+Conflicts:
+
+	pom.xml
+"
+547,9ff594fefd42a9a3e0f3c8fc442910e7d4df6223,4,6,9,"2012-11-29 10:40:54","Adds missing license headers and lifts epl-v10.html from project scope to repository scope
+
+According to the guide for legal documentation missing license headers have been added. Moreover, license files in project/plugin scope are only required if a non-standard about.html is used. Therefore, they have been lifted to the root directory.
+(cherry picked from commit b7a6b2bf441fd708704db1159c13cbce92600b4d)
+"
+548,215f988c8b38f13d6d0b8cba9985d670ba4cc2cb,4,6,9,"2012-11-29 10:59:53","Clean up build.properties files
+(cherry picked from commit 37533f23fb71c70eab08d9f1de091fcae1b0c400)
+
+Conflicts:
+
+	org.eclipse.babel.editor.nls/build.properties
+	org.eclipse.babel.tapiji.tools.core/build.properties
+"
+549,3d1b29b41b22677fcdc47ec9631e15b973ca3d62,4,9,9,"2012-12-03 09:20:28","Defines a team working set for ""TapiJI Tool Suite""
+"
+550,29214d2b1a4379f7437178b7ed81360e4da066ac,4,9,9,"2013-02-06 17:09:00","Fix wrong reference in team project set
+"
+551,838009943d082216c5b1b015c644617692d7059c,4,9,9,"2013-02-22 19:09:30","Remove projects that have been contributed to the eclipse babel technology project
+"
+552,036ab9cecae204dcdc7e18fc7c36d3687b5f8e8d,4,9,9,"2013-02-28 22:30:20","Add rbmanager.ui to tools team project set
+"
+553,f6d8ce0ddb06773f1b9a269bdb94ac8840673d82,4,6,6,"2013-03-06 00:19:49","Prepares maven pom files for building tapiji translator (RCP)
+"
+554,baa11dd552580abb28431ba890e7c3a90363da5d,4,6,6,"2013-03-06 00:35:11","Consistently remove remaining JDT dependencies from the RCP translator's product definition
+"
+555,c132766c3a12ae98d3892c2470da7336cd5a35cf,4,6,6,"2013-03-06 00:37:04","Remove remaining dependency to pdeutils from the RCP translators product definition
+"
+556,ee812eba6928ff73f60a528377ddf33e8965c84c,4,6,6,"2013-03-06 07:27:14","Cleans up the RCP translators product definition
+"
+557,3c95d97b0eb464b6788466769919deea219ce24a,4,9,9,"2013-03-06 22:42:57","Provide target platform for building rcp translator
+"
+558,a92b8be52c5ec435dfb2b1576890ebc80c951c03,4,9,9,"2013-03-06 22:59:18","Cleans up rcp target platform
+"
+559,d7217260578f7fce07eed94e33ede6ea1da01284,4,9,9,"2013-03-07 18:17:14","Adds multi-platform dependencies to rcp translator product definition file
+"
+560,fbb645beca490238e4ed849142d96e18def15e86,4,9,9,"2013-03-07 18:44:46","Adds product icons for RCP translator
+"
+561,f7de5d7fc5ac956afa63b91a62173dddcea902ea,5,11,11,"2010-07-28 00:14:53","Removed CDO dependency
+"
+562,95c114f2692ca7fdc187d2f167b76f90975e1ead,5,11,11,"2010-07-28 00:21:06","Fixed bundle names and license information
+"
+563,395b43d62ec11bacbf636bdd3a55151e936a569c,5,11,11,"2010-07-28 00:23:30","Added update site
+"
+564,dabca506b7b4a7aa200cf7a81dcb290aa6b5b5eb,5,11,11,"2010-07-28 00:31:07","Removed CDO from the UI project
+"
+565,62a5d99c731b3ad33f4657f1ad6b9bac90fb4203,5,11,11,"2010-08-01 21:21:58","317535: Dynamically add parts to any part (319357)
+
+added a prototype for marking tasks as reviews (see bug 317867)
+added PartAdvisor implementation which removes uninteresting parts from the task editor and adds the review part
+added a ReviewDataManager, which keeps the review data in-memory
+"
+566,f41da907ceae1167b6e3228bfc613039ff329000,5,11,11,"2010-08-04 18:11:49","321269, 317535
+
+Fixed syntax highlighting in diff view
+Dynamically add parts to any part (319357)
+added local caching for review data
+enhanced part advisor extension
+removed unused classes
+"
+567,aeda373e85a6dacc6ee4db762184d229739af7fb,5,11,11,"2010-08-13 02:10:15","317535: Fixed a bug preventing submit
+"
+568,b492b73284ef5080274716132406b765d5e47ea0,5,11,11,"2010-08-16 01:23:54","322734: UI Rework
+- review results drop down
+- review summary drop down"
+569,e1484ccac929d9662731d4f5e941ca6b49c20b70,5,11,11,"2010-08-16 01:53:46","322734: Force synchronization after submit
+"
+570,6ecd0a21f1545357c3bd8e9b4a161f158c8d11eb,5,11,11,"2010-08-16 04:29:16","322734: review type identification fallback
+"
+571,5f232224c4de92467c4de6385590ec19e0568ba5,5,11,11,"2010-08-16 04:37:48","322734: Display just the last review result for a task
+"
+572,37a3414cd78d97ecbf2aa012579eda615054ba86,5,11,11,"2010-08-16 10:27:01","322734: Re-Added comment comment part
+"
+573,83ade7b96fd5866d48973460ff8a71efca685366,5,11,11,"2010-08-16 11:24:54","322734: Force synchronisation after submit
+After submit the task editor still shows no attachment an thus no review section.
+After synchronize the task the attachment and the review display correctly.
+As a workaround force the synchronization of the task and re-open the editor.
+"
+574,fdca041d78e409a32454ea0afa94eacedfc30ef6,5,11,11,"2010-08-16 11:36:45","322734: display review task without result in summary table
+"
+575,2c653b7fb8844ba81fbfc55e9b76827e01969763,5,11,11,"2010-08-16 12:13:41","322734: Load review data from remote task
+"
+576,c0bae1256c20ddb0c76da865f2c0470fb0b1db1c,5,11,11,"2010-08-16 13:09:43","322734: Avoid exception, when loading non-existant local cache of review data
+"
+577,4752b97832f0395dcb984872cdc40370043445dc,5,11,11,"2010-08-16 14:44:17","322734: Submit of changed reviews
+"
+578,e38e4ea7a76d42692453be0288d8cf101e13fd52,5,11,11,"2010-08-16 14:53:40","322734: Label for review rating and comment
+"
+579,13c851fc730cc900605f28582caeb12b8dcc89d9,5,11,11,"2010-08-16 15:04:57","322734: Open Review Compare in another editor
+"
+580,859f9b8494cb6c7fec7f9b803bc975e7fb3b8ab4,5,11,11,"2010-08-16 15:06:37","322734: Renamed part/section to review
+"
+581,8d62686d2a5e00f381a2b333b05c4fd70bf8ffb4,5,11,11,"2010-08-16 17:03:14","322734: changed labels, border for rating comment
+"
+582,18f85bef4bf10e47cc314f71c302dd3b19f6797a,5,11,11,"2010-08-16 17:39:10","322734: File table spans whole width
+"
+583,30209c4c9a736fd937ecc7df25b5fb1ce893ae6f,5,11,11,"2010-08-16 17:53:22","322734: Result types in section text
+"
+584,49afb44009133c40ece7c9d514364b9e779a8efe,5,11,11,"2010-10-20 22:16:10","Moved ""tbr"" to subfolder
+"
+585,e9f46afa47e9b7c0d7aaf90568237d35a76e9535,5,11,11,"2010-10-20 22:18:43","Moved ""tbr"" to subfolder and added folders for other projects
+"
+586,c7a5de087b31e9b4e11752818526b45ad3154915,5,11,11,"2010-12-05 11:28:04","331862: Move review parts back to seperate page
+
+-Deleted old advisors
+-Changed mylyn.tasks.ui dependency to 3.4
+-Added old PageFactories and Pages
+-Removed old unnecessary dependency
+-Initial import of review dsl
+-Cleanup reviews.core
+-Removed old reviews model
+-Removed old code
+-Development, Cleanup
+ -Introduced API over most accesses to Mylyn (still not complete yet)
+ -Tweaked the dsl
+ -Removed unused, old classes
+ -Fixed namespace
+-Finished namespace renaming
+-Review for non-patch attachments
+-Moved Review Summary to common review page
+ -Removed special summary page for tasks with review sub-tasks
+ -Show common review page on all tasks
+ -Some cleanup and refactoring
+ -Expand summary tree by default
+ -Filtering for summary view
+ -Uninteresting nodes can be filtered
+-Abstraction for TasksUiUtil.openTask for Summary
+-Further Cleanup
+-Added legal headers
+-Removed unused classes
+-fixed plugin xml
+-Summary: show creator of review
+-Enable filtering by default
+-Summary: Description for Task nodes
+ -The changing artifacts of the task (currently only attachments - patches and other) will be displayed in the table.
+-Rebased & squashed so that all files have that legal header
+"
+587,ad310d60e3e1d1c6ad6495af087dc19dc8ea02f2,5,11,11,"2011-01-15 21:25:07","Allow multiple attachments for review
+"
+588,deb17da4bbf1ddd29c88d7f0b39718c5c4473687,5,11,11,"2011-01-16 00:57:53","Hierarchical review scope
+
+- scope table is now a tree.
+- review section will be automatically collapsed if no scope is found.
+- refined descriptions and types for scope items
+"
+589,c1dcdf131031ab6903abf399a710744bae53f239,5,11,11,"2011-01-16 14:50:24","Cleanup
+
+-Renamed interface ReviewScopeItem
+-Moved xtext setup to core
+ -removed now unecessary dependencies in ui
+"
+590,fc1965d648bf40466b46770bad874de80c480dd4,5,11,11,"2011-01-16 15:46:10","Merge branch '331862_move_review_parts'
+"
+591,2ba191b5217e14fa96ee37e65bec1100b1ff14ce,5,11,11,"2011-01-17 05:34:46","Fixed task mapping of results
+"
+592,1d094212644335939789becb2b8c36e471ce3e12,5,11,11,"2011-01-17 07:47:22","Updated DSL to cover updated scopes
+
+-changed DSL
+-adapted ReviewTaskMapper to add all additional items from changed scopes
+"
+593,8bba1e439e933b716ce64a8f029c3e84ed5a2d18,5,11,11,"2011-01-18 09:02:54","ReviewScope is optional
+"
+594,21cad21f6765e2af1b6faf3d1e716cb9860d433f,5,11,11,"2011-01-18 09:05:34","Removed stderr output
+"
+595,81aa854e7fc6cda7ff390112c436f3644181dc81,5,11,11,"2011-01-18 14:55:27","Enabled opening the corresponding task for a result node
+"
+596,ceb5861998de2e1a07a7279d3f1d26ecfb2c2dca,5,11,11,"2011-01-19 08:53:31","Simplified some column handling logic
+
+-avoid repetition of column handling,output,...
+"
+597,a97d51e05efd366c7bfc4d52c12fa757c1495a56,5,11,11,"2011-01-20 16:42:01","332591: hide internal api for tbr ui
+"
+598,b3a51c94ab0a44a22874fc835c772a26abaaebd3,5,11,11,"2011-01-20 19:58:52","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+599,b72e82bf7f499f2779b5c944fa19bd154e881537,5,11,11,"2011-01-27 19:19:09","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+600,5bc30fcc6c587c5b4581fbcc772cb4625edf2d4c,5,11,11,"2011-01-31 19:38:06","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+601,bbf0610c6b4e6989d975bfcfd9e1fec60e863b34,5,11,11,"2011-02-03 15:07:44","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+602,9b3f4a6d22953f29e9e4f11bcfbc28a4c4145e62,5,11,11,"2011-02-06 23:25:10","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+603,52d77a2cdf87324be66210b84084bfc19b96b892,5,11,11,"2011-02-08 06:13:23","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+604,dde07c616e4a0e866a0d7f0bc3f63979fc571d08,5,11,11,"2011-02-13 18:14:52","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+605,40c30c0430a3938a71d3d94df20255a8c9898218,5,11,11,"2011-03-06 20:12:17","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+606,eb0a1bebaa1486ab4d2af4dccf40aea7f8f1d5dd,5,11,11,"2011-03-09 21:55:29","Merge branch 'master' of git://git.eclipse.org/gitroot/mylyn/org.eclipse.mylyn.reviews
+"
+607,c0d8a840624ff68457c5a9da38e39e19fefe9db1,5,11,11,"2011-01-20 16:48:22","Changeset based reviews
+
+-Adapted dsl to review changesets
+-Added extension to experimental versions changeset list on a seperate page
+-Fixed error in dsl
+-Fixed copyright headers
+"
+608,f376424150d1f80ead2e64e108ec3d0d246da553,5,11,11,"2011-02-06 18:42:03","Removed unused plugin.xml from tbr core
+"
+609,ff80712d74ae5da0a66db6098b22a028439146c2,5,11,11,"2011-02-06 18:42:27","Enhanced formatting of dsl
+"
+610,61c86d94ddb0ca3be328ea8e07120a595a597665,5,11,11,"2011-02-06 18:44:09","Minor cleanup
+
+-Added correct version for version-tasks
+-Fixed author name
+"
+611,5fe6054a3835b11a4432e3da770f779183de4291,5,11,11,"2011-02-06 18:45:19","Minor cleanup
+
+-ignore warning about internal api
+-minor reformatting
+"
+612,012a420f27f81934ce7d183f024bcbe0ba0edeb2,5,11,11,"2011-03-07 07:27:10","Changeset based reviews
+
+-added scope item and review file implementations
+"
+613,35c49ea2db324c527a45be9a219cc05f2a718950,5,11,11,"2011-03-07 07:32:05","ANTLR based dsl implementation
+
+removed existing xtext based dsl and replaced with antlr impl.
+"
+614,454302cf65c3c617149f28aee819549dd02f3680,5,11,11,"2011-03-07 08:06:00","Move versions-task bridge to reviews
+"
+615,f5cca8bce1fb55eab4ee72aab1654522f60a141d,5,11,11,"2011-03-09 00:19:45","Removed xtext dependency fragments
+"
+616,c0e6bbe105a34e9effb8674d5611a9ea9bb6f32e,5,11,11,"2011-03-09 07:29:43","Removed TBR site
+"
+617,872fb98aed24bbfc6a15e7d14f1e2da61487e589,5,11,11,"2011-03-09 07:40:10","Changed versions task bridge feature ids and name
+"
+618,45beae1dac0ee69bffc6c3d8029e2c11c9fecf09,5,11,11,"2011-03-09 20:16:54","Include TBR and Versions in build
+"
+619,e4c27097b8e3b8ba00b731ff4d134e4e4cb71d94,5,11,11,"2011-03-09 22:27:22","ANTLR Dsl Cleanup
+
+Ignore recognition errors from lexer/parser
+Prevented NPE
+"
+620,3e0502ea86cfb48d8fe1e1b117781491499b4e00,5,11,11,"2011-03-09 23:24:25","Fixed versions parent
+"
+621,7dab4986c80921d6d9ed7a93f7145c9592701678,5,11,11,"2011-03-09 23:34:54","Removed TBR from the build
+"
+622,64b71912f58781431f08455d51b07676f9bf122e,5,11,11,"2011-03-09 23:40:16","TBR: Fixed artifact ids in pom
+"
+623,1f6e2f3e113c8162aa40e6c8a09ac3917c6d3ecf,5,11,11,"2011-03-10 08:25:50","Removed feature for versions
+"
+624,ada6a264c633c80c1bf71b1767831dad2d88e7bf,5,11,11,"2011-03-10 08:35:00","Moved versions-task plugins to TBR
+"
+625,7ddaefd93623be193d76c9a9397e978330cc2ee1,5,11,11,"2011-03-15 12:10:52","334692 fix compile errors on Indigo and include TBR in headless build
+"
+626,e23873e4201e5e64884df41c1eb9dfb5b08af103,5,11,11,"2011-03-30 06:12:08","339480 Set execution environment to java 1.5
+"
+627,06058e47d3b42f059340b6e3e4a1156c1fc76036,5,11,11,"2011-04-14 19:12:42","342870 TBR extension point für task changeset mapping
+
+Initial implementation of the extension point and generic implementation.
+"
+628,74c7d6e7ed1ec3eb4e2f20f6790d9aedb8cd01d5,5,11,11,"2011-04-14 19:40:21","342871 Fix findbugs warnings
+
+Fixed all findbugs warnings reported in last build
+"
+629,c08f138d97f6a699bfa345d849e70a13e1646d30,5,11,11,"2012-04-05 17:20:25","bug 376191: NPE when opening reviews page
+
+fixed access of map entry
+
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=376191"
+630,4949b0b149c0847e67ae3395be23da4da4fd827c,5,11,11,"2012-04-05 17:21:59","bug 376192: Fixed error when creating a new review
+
+use addItem method instead of getList().add
+
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=376192"
+631,9336aa98be352d2353a614009b615929ff4f9d77,5,11,11,"2012-06-20 07:17:08","Minor bugfixes, cleanup
+
+- prevent npe, when there is no repository for the project
+- when retrieving all repositories for a task avoid duplicate
+repositories
+- deleted unused file
+- refactored changeset part
+
+Change-Id: I9e8330c9a8568100a9610bf8df48147931f4c7b0
+"
+632,130a91a2d393bc9a0128cc2fafa3e52c6528e005,5,11,11,"2012-06-13 22:18:05","bug 380843: index commit messages of changesets
+
+Added an initial implementation of an index for the scm repositories.
+The commit message, the revision and repository url are indexed, which
+allows to search for all commits for a task in specific repositories.
+Currently, the index is rebuild at the startup, which limits its use
+only for smaller git projects. This should be fixed in the near future,
+when a notification of repository changes is implemented, as well as
+a mechanism, which determines if the repository has changed while
+eclipse was not running.
+
+Change-Id: If7aebd06dd9ca19090b2af3b5f447fe8454df7d0
+"
+633,68302d9b31f48a7ae68109a651054bbd64546956,5,11,11,"2012-07-11 18:42:29","Refactoring
+
+- splitted several classes in smaller parts to improve testability
+- added some javadoc and tests
+
+Change-Id: Ic403f614c1a6ebdc2c89994e22ae01becca10e62
+"
+634,1e7118488498b508c447c1abc5ded02d7c6f16d1,5,11,11,"2012-07-20 01:12:59","bug 380843: index commit messages of changesets
+
+use iterator function to retrieve the changesets
+added some more null checks
+
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=380843
+
+Change-Id: I3484580c00372fd9276653e46ea8f552272af27f
+"
+635,10d01bb9da84d588f57a824ef9dc048562af2f7a,5,11,11,"2012-07-29 20:46:31","bug 386204: Allow users to include subtasks in changeset view
+
+Refactored part and introduced a model, which allows including subtasks.
+
+https://bugs.eclipse.org/bugs/show_bug.cgi?id=386204
+
+Change-Id: I94af1aa42624b69f280d8dca54c8020f877a9f45
+"
+636,1eac0a7cdb214d084934cbe159af7a1803486f14,5,11,12,"2012-10-02 07:12:10","390767: Create context from changesets
+
+added internal extension point for contributing actions to the
+changesets list.
+added a new plugin, which contributes an action for populating the
+context with the contents of the changeset
+
+Change-Id: Icae78708bac4279563584b8d8aa785975e196fcb
+Task-Url: https://bugs.eclipse.org/bugs/show_bug.cgi?id=390767
+"
+637,d3ec4cab768b7062fa7625d623402f25f349028c,5,11,12,"2012-10-22 21:11:32","380843: index commit messages of changesets
+
+Created custom filter for changesets, which works better with task
+numbers like used in jira (Prefix-Number).
+
+Task-Url: https://bugs.eclipse.org/bugs/show_bug.cgi?id=380843
+Change-Id: Ice1cf8e3a558c36d9e832312a0a6259e7f6e7e86
+"
+638,3d53bdc3d320973bcb0ca67047a59e0e58cee0b3,5,11,11,"2012-10-22 21:13:07","cleanup warnings
+
+* Fix build path issue
+* Minor Cleanup for Action
+
+Change-Id: I4e4bda10624e16d4f69545a953ae80d84939c1dd
+"
+639,bbac34179e1ce5b7a136b4b5ebc6101dfb3eb65d,5,11,13,"2012-10-24 19:10:46","Fix broken test
+
+Change-Id: I15affe2d03ac77ff86e8f2ac01dde6539f6a64d9
+"
+640,e643613f8cc3eb0f1e892c955027003a7d515061,5,11,13,"2013-04-27 21:30:57","fix tycho build errors
+
+Running the test failed, as the mapper.tests bundle was not
+resolved in the started eclipse instance.
+
+Change-Id: I87353e410945a70029b2f7d35f15dd2134c36c40
+"
+641,464fd741533548c6fec7393299185c293de0d862,5,11,13,"2012-10-23 20:41:56","392682: Show details for changesets
+
+Use the ScmConnectorUi to open the correct view for the connector
+
+Task-Url: https://bugs.eclipse.org/bugs/show_bug.cgi?id=392682
+Change-Id: I98a778a7dc0edc1497194bc018536236f4f93382
+"
+642,1ce6024ca013dfa5af574640a16732cf0b8f3459,6,14,14,"2012-10-05 09:32:11","DELTASPIKE-266 remove obsolete comments
+"
+643,b0caefee80a42d6737b3a255316487b668fab104,6,14,14,"2012-10-06 21:08:55","DELTASPIKE-278 add category to Message API
+"
+644,279d85bb562cc3dd2b20549d037f9ef44ffdbcff,6,14,14,"2012-10-06 21:25:13","DELTASPIKE-278 remove unecessary checks for Message return values
+
+Why should we restrict the return value?
+"
+645,8e593fdf24a9af820af9cead5dc0630891905f76,6,14,14,"2012-10-06 22:03:24","DELTASPIKE-278 implement the category resolving and add tests
+"
+646,737771ba18bca7bdd3e8684f06f127b6f16f6e18,6,14,14,"2012-10-06 23:45:40","DELTASPIKE-277 add JsfMessage API
+"
+647,66fcfd7c5de57d6771ceb433c54458ae4ac021d3,6,14,14,"2012-10-07 12:51:55","DELTASPIKE-280 register resources under their full path
+"
+648,2999b9f3a88b78bd9acb43fee50ce20bd6583f0d,6,14,14,"2012-10-07 12:52:41","DELTASPIKE-274 fix remote container tests
+"
+649,de286e000716ec9057dfdaefeeda91d34be22d64,6,14,14,"2012-10-07 13:01:27","DELTASPIKE-277 add first API draft
+"
+650,1b151a09c325678754ca3b0683dcd37611212275,6,14,14,"2012-10-07 19:55:49","DELTASPIKE-277 first version of a JsfMessage implementation
+"
+651,a8a2815cdf14fbcc8854338bf98e344f7b4f149c,6,14,14,"2012-10-08 10:59:56","DELTASPIKE-266 refactor JSF test setup
+"
+652,48694d0bba7f6756c0b2396ca32d6aee1bfad2e4,6,14,14,"2012-10-08 20:47:41","DELTASPIKE-277 improve graphene setup
+"
+653,42fa86735cb89bdde76545946d154c045513c12b,6,14,14,"2012-10-08 22:16:30","DELTASPIKE-277 fix JsfMessageProducer
+"
+654,bfbc5024840ee4f60d52377b1192d8650451cb13,6,14,14,"2012-10-08 22:17:11","DELTASPIKE-277 add missing beans.xml
+"
+655,497c7441ad1370b383d3c00c614d32dec4ef1952,6,14,14,"2012-10-10 00:10:11","DELTASPIKE-277 fix JsfMessageProducer type detection
+"
+656,53b3787e247759a4711bd3ebe8968b830f27711a,6,14,14,"2012-10-10 00:45:11","DELTAPIKE-277 first warp test for JsfMessage
+"
+657,1bd79c9c07207723373bde7aa1031285057248ef,6,14,14,"2012-10-10 20:14:21","add tomee build leftovers to .gitignore
+"
+658,649a65fae047377bf52978ef47f3d50020f1c048,6,14,14,"2012-10-10 20:14:51","DELTASPIKE-277 create a proper unit test and remove unused imports
+"
+659,77e111dc3131b44bd7ef9edca5fd31dd2e27e67a,6,14,14,"2012-10-10 20:29:06","DELTASPIKE-277 fix missing license header
+"
+660,c2951e9c0fe94dbf2c000183a8721f6606a69ffc,6,14,14,"2012-10-12 09:39:14","upgrade Arquillian Drone to 1.1.0.CR3
+"
+661,c3364f21f8e1908fe19a910c1ebd27392f1afdb0,6,14,14,"2012-10-12 15:36:03","enable checkstyle reporting on the commandline
+
+catched by Arne
+"
+662,37ebe0b3c428cd64734a3dd3eee4d94a3f715e26,6,14,14,"2012-10-12 15:37:30","DELTASPIKE-281 add LocaleResolver for JSF projects
+
+if a ViewRoot is available, we take the Locale from there.
+"
+663,9682dce0f487902ea1bf607641c502dc77ed0506,6,14,14,"2012-10-12 20:40:49","DELTASPIKE-281 add unit test and fix some bugs in the locale mechanism
+"
+664,9f3095892e2f404db70063380a02f78e41271a7c,6,14,14,"2012-10-15 09:15:25","CDI-279 add a unit test for our JSF-2-CDI scope mapping
+"
+665,1bf160a0415dc5838b0eeee9ef92faf152c8c04c,6,14,14,"2012-10-18 11:41:43","upgrade to more recent weld-arquillian version
+"
+666,5df2cde8e95c496ed4c61bd1df5f3a0e12e7e6e9,6,14,14,"2012-10-24 08:53:56","move properties section to the top of the pom
+"
+667,44d520ccdb14fce22413efe7e76daa8b1c3d6442,6,14,14,"2012-10-24 08:58:02","upgrade tomee and openejb to released versions
+"
+668,80e3ad203c023306e35ba11a7353c5c1435d4b8a,6,14,14,"2012-10-24 09:02:50","get rid of empty if statement
+"
+669,75715abbd581de8e92e146c373964d75772df6d1,6,14,14,"2012-10-24 09:03:24","DELTASPIKE-80 fix concurrency/visibility issue
+"
+670,4600b51887de35647220ca47fa1a09042db2cb52,6,14,14,"2012-10-24 09:47:39","DELTASPIKE-286 Comparators should be Serializable
+"
+671,0338b71df28dc82f5bbb6aa777f51809549dffeb,6,14,14,"2012-11-04 12:19:01","DELTASPIKE-241 new weld-arquillian container fixes BDA issues
+"
+672,ac2f8f35e385c6962c99b5ea2ab57eab73694753,6,14,14,"2012-11-05 17:05:52","DELTASPIKE-289 add WindowContext API draft
+"
+673,426b094ec7683cd482b87ff7fe102a005ff1dac3,6,14,14,"2012-11-07 10:26:39","DELTASPIKE-278 use '_' as category separator
+
+This got done to unify this with the default JSF '_detail'
+handling. So we moved from '.' as separator to '_'
+"
+674,34c03c374dd3a5497a154fc311958915f0d63b78,6,14,14,"2012-11-07 10:39:02","DELTASPIKE-277 JsfMessage will now return the Message parameter directly
+
+Previously we always did toString() internally. But that prevents
+people from using the Message return value
+"
+675,4804e610fca59b7e81b9e7a31ab7441fd47465e0,6,14,14,"2012-11-07 10:53:35","DELTASPIKE-289 add WindowScoped and initial Context handling
+"
+676,c556f1fbabca3faedb55f3e05531d2ca9daa517a,6,14,14,"2012-11-10 20:06:00","DELTASPIKE-289 JavaDoc + make unit tests fit api packages
+"
+677,4916128227c75b9ead023d37ba86a2685aebf62c,6,14,14,"2012-11-11 01:25:25","DELTASPIKE-289 enable WindowContext via Extension
+"
+678,950225ed644937af40685339d143bd5da1c1e96d,6,14,14,"2013-02-09 21:19:55","DELTASPIKE-312 add JavaDoc warning for @Alternative scenarios
+"
+679,c2d25218b429e6041c3652025788701e795db22e,6,14,14,"2013-02-09 21:27:10","DELTASPIKE-312 remove GlobalAlternatives handling for OWB and fix tests
+"
+680,55e73275ec32b059968a12b20190262ce5db1209,6,14,14,"2013-02-09 21:32:02","upgrade owb.version to 1.1.7 which is the latest released version
+"
+681,32151ae7ab34f9df07340ad150b2920f128186e2,6,14,14,"2013-02-09 23:47:10","DELTASPIKE-312 introduce openejb.owb.version
+
+This allows to fix the OWB version used for the cdictrl-openejb build using
+-Dopenejb.owb.version=1.1.7
+"
+682,de9c73d84625565731b5b92f0534ca1a09b032df,6,14,14,"2013-02-22 08:35:01","DELTASPIKE-157 log Test Class for @Deployment
+"
+683,e4e85d3facf1633ea6a058d186dfbcf75f3e3a07,6,14,14,"2013-02-22 12:44:02","DELTASPIKE-315 provide common EntityManagerFactoryProducer
+"
+684,4f8fa5ff72b1ae2ef4a5c2e4be4f9c8f749da9bb,6,14,14,"2013-02-26 09:23:41","DELTASPIKE-315 add more JavaDoc
+"
+685,40aa7b628bdc0237603f2282430947a49e515862,6,14,14,"2013-02-26 12:40:02","DELTASPIKE-315 fix broken package move
+"
+686,be1fd862f67623f2d69a87445a777486f1c84e9e,6,14,14,"2013-02-26 13:02:30","DELTASPIKE-318 disable auto-scanning of bootstrap chain for OpenEJB starting
+"
+687,4a8ab4863510faef2cf81d887b63a80bce7b2830,6,14,14,"2013-03-08 21:14:34","upgrade copyright to 2013
+"
+688,ae8e604436ac52b99a5fbacfce93da1186445b2f,6,14,14,"2013-03-30 09:27:54","DELTASPIKE-318 remove workaround again.
+
+This got properly fixed in OpenEJB.
+See TOMEE-840 for more information
+"
+689,183a92087fbe62f57cda2450a1c603eeaa398776,6,14,14,"2013-04-03 13:18:34","DELTASPIKE-273 fix JavaDoc
+"
+690,f9fdb6db4945ccf20ce056399ccfa07a8d46e14b,6,14,14,"2013-04-03 13:39:22","DELTASPIKE-330 adjust scoping for Window infrastructure classes
+"
+691,4cfe0112b339e227fb89d55ea870eed39c009f9e,6,14,14,"2013-04-13 11:21:07","update javadoc
+"
+692,19cb8aa1cd8c12078dc462eb7769928837c2a966,6,14,14,"2013-04-13 11:56:45","DELTASPIKE-339 re-apply jndi name in exception
+
+we need this info for detecting issues
+"
+693,34d6a1696206e011e698fd74c2b75bc968c9384d,6,14,14,"2013-04-13 11:57:47","DELTASPIKE-229 improve WindowContext handling
+"
+694,412fc078b9634cf659e11c63cb1a07c7eb385e40,6,14,14,"2013-04-16 23:45:37","DELTASPIKE-339 revert to gerhards version
+
+Now I know why gerhard fixed it that way... ;)
+"
+695,9ef7a9c6df9d0e7398c838de6a284fb141a86cf4,6,14,14,"2013-04-18 21:30:41","DELTASPIKE-344 provide getContextualReference with a BeanManager param
+"
+696,32b5ef9df68ad121ed7bb3f790a36b074d103117,6,14,14,"2013-04-18 21:34:09","DELTASPIKE-289 controllable WindowContext
+"
+697,ac93bc54a2c1a7b17d3a0b57fc9a24ec9d334c78,6,14,14,"2013-04-18 22:36:14","DELTASPIKE-289 WindowContext cleanup
+"
+698,ff5df7d320c9819754586497eb36a07a2d384652,6,14,14,"2013-04-21 10:54:54","DELTASPIKE-289 implement ClientWindowConfig
+
+This can be used to determine the window handling behaviour
+for each request.
+"
+699,30661b0551940cf7e40b3db2dd3263b3d8b23c2a,6,14,14,"2013-04-21 19:48:47","DELTASPIKE-289 add postback handling for windowId
+"
+700,45770596d64be289e202339bbc02ebb22aed3758,6,14,14,"2013-04-21 20:56:15","DELTASPIKE-289 migrate windowhandler from CODI
+"
+701,aded57f8faa5c23934839ac6b44e1376ea99c07b,6,14,14,"2013-04-23 19:09:28","DELTASPIKE-289 windowId detection code with JavaScript and intermediate page
+
+partly ported over from MyFaces CODI, partly rewritten.
+Passing the windowId via hidden input field
+"
+702,6dacff805964cca70c4f8ce0a2c3e65c946fca9e,6,14,14,"2013-04-23 20:39:35","DELTASPIKE-289 exclude lifecycle execution if ClientWindow page gets rendered
+"
+703,bb85cacf9358f9ed289e72a416e78625fcab18a4,6,14,14,"2013-05-06 08:15:19","DELTASPIKE-289 fix WindowScoped context test on jbossas
+
+I recently removed the <h:form> which did lead to a different
+component Id for the outputValue. fixed now.
+"
+704,2b0f0fa30f2ed20965abbf0caf4b1e00d57b4f37,6,14,14,"2013-05-06 18:50:32","DELTASPIKE-348 prepare for more ClientWindow samples
+"
+705,cb8c0861e16bbab6ad11d1dc2b1820d054aa2fba,6,14,14,"2013-05-08 16:46:25","DELTASPIKE-356 fix @Dependent handling for MessageContext
+"
+706,b43b71208e28d02ec1f07b4761195d66ba4337e8,6,14,14,"2013-05-11 12:07:41","DELTASPIKE-354 prevent NPE when passing null to a @MessageBundle
+"
+707,709fdb7cd7fc20abd151b1a92a7c9021553e5924,6,14,14,"2013-05-11 12:49:08","DELTASPIKE-363 prevent NPE at shutdown
+"
+708,7aea840155ec68cb9386b415ca59cfd1c76a62fe,6,14,14,"2013-05-11 13:47:49","DELTASPIKE-355 add Alternative MessageInterpolator using MessageFormatter
+
+Simple add an <alternative> to your beans.xml where you gonna like to use it.
+"
+709,acc6c73680f4f2fb0b13c9a4b429d995035a34c7,6,14,14,"2013-05-11 15:38:40","DELTASPIKE-356 fix JsfMessage which I broke with the refactoring
+"
+710,439a23d21eff5b4ff9ba58465be0bc54f305fedd,6,14,14,"2013-05-12 08:49:26","fix owb managed version handling for openejb
+"
+711,37653501dcfc08114bd23b6f4b9ec6f60b846b7a,6,14,14,"2013-05-14 08:04:54","DELTASPIKE-365 add a boot(Map) method
+
+This is needed to startup some containers with initial properties
+if they support it.
+"
+712,1fe1191dcc823281c2e2f857c24f3ee5c610b206,6,14,14,"2013-05-17 08:07:46","DELTASPIKE-289 add sample ClientWindowConfig
+"
+713,fc063b934666bbf12886cd1fd5f07d1b3c82dfa8,6,14,14,"2013-05-17 10:25:46","DELTASPIKE-367 upgrade to owb-arquillian-1.2.0-SNAPTHOT
+
+we finally need to upgrade to 1.2.0 but for now it's fine.
+"
+714,e56f26140787fbe76b3c155c0248558287370e2c,6,14,14,"2013-05-22 17:01:50","DELTASPIKE-208 explicitely enable global alternatives
+
+This now works on Weld, OWB with BDA enabled, etc
+"
+715,15de1f5c92d90b583cce13d0bd7bda05d396adea,6,14,14,"2013-05-23 12:07:42","DELTASPIKE-367 upgrade to final owb-arquillian-1.2.0
+"
+716,17db0f11e85bb21def0af785e654db15120d874b,6,14,14,"2013-05-26 21:29:10","DELTASPIKE-339 don't lot the Exception as this is a normal operating situation
+"
+717,007474b2da61d4476d9386185ee942035039a7c7,6,14,14,"2013-05-26 22:36:52","upgrade version to TLP
+"
+718,fb8d629a3cd6ab77879cd6b821265ed423cb3f6c,6,14,14,"2013-05-28 14:08:28","add release notes for 0.4
+"
+719,3d8af1b1e6726cca4ecd7d087ec79eb1ff943aff,6,14,14,"2013-05-28 14:12:05","[maven-release-plugin] prepare release deltaspike-project-0.4
+"
+720,5bd1d57bffc98a94fe7c7687f85a0052de11ecfc,6,14,14,"2013-05-28 14:12:05","[maven-release-plugin] prepare for next development iteration
+"
+721,d7929a40521731c53f510996bf9918ff3b158e3d,6,14,14,"2013-06-03 11:03:55","DELTASPIKE-378 add ProjectStageAware property handling
+
+Main entry point for this feature is
+ConfigResolver#getProjectStageAwarePropertyValue
+"
+722,96d9ec7160efc69388bceb746898ea47311dd5f8,6,14,14,"2013-06-07 08:53:34","DELTASPIKE-378 more unit tests for geProjectStageAwarePropertyValue
+"
+723,7631ac6f526edf472d1383f7b82171c7ac29f0fb,6,14,14,"2013-06-07 10:00:44","DELTASPIKE-378 add getPropertyAwarePropertyValue
+
+feel free to propose a better name if you find one :)
+"
+724,4b636c8cebd3334d08ee8d8f0fa6b97a001fa217,6,14,14,"2013-06-07 12:06:02","general configuration section should go before executions
+"
+725,f83662f51e2bbcb77a760d23695dda66fdfb6a11,6,14,14,"2013-06-13 09:07:43","DELTASPIKE-378 unify handling of defaultValue
+"
+726,6fa6080e65f041a8f72dae9a831d2edab2770f43,6,14,14,"2013-06-16 10:46:33","DELTASPIKE-384 use getProjectStageAwarePropertyValue where possible
+"
+727,eb526e50a1925a11412e256f598ff787c42d2950,6,14,14,"2013-06-17 08:22:20","DELTASPIKE-375 improve performance and use internal ClassUtils common code
+"
+728,9c301fc289a15a84552950737df03f9d0487150f,6,14,14,"2013-06-23 16:58:51","DELTASPIKE-382 add ConfigFilter mechanism
+
+This allows to filter DeltaSpike configuration values,
+e.g. for applying decryption of secure configuration values
+on the fly.
+"
+729,01b87451db42627e908f3f9c900aba9a7620f891,6,14,14,"2013-06-23 17:19:06","DELTASPIKE-386 use correct ClassLoader for loading the ResourceBundle
+
+txs to Richard DiCroce for the catch!
+"
+730,bba004602c091dbb5c1da4b7a1d05a0ef4e55c42,6,14,14,"2013-06-23 17:39:47","fix old TODO and use field injection of Extension.
+"
+731,c1cb5145202335076ae00ea1630f92ea0e0efcee,6,14,14,"2013-06-23 17:40:41","remove useless TODOs
+"
+732,5b91442a260b42e3d47ef91a53015f2d0958a683,6,14,14,"2013-06-23 17:43:11","remove unused private field
+"
+733,6a3f2b45ebe4cb529b9a209105168c81252201bb,6,14,14,"2013-06-23 17:47:24","fix documentation for custom ProjectStages
+"
+734,2318498c7712a3147bdbd8145138ab8ff91a1772,6,14,14,"2013-06-23 17:48:55","removed obsolete TODO for Weld
+
+This scenario must not happen. The ClassLoader used to load
+the Extension is also the one used at shutdown. Even in EAR
+scenarios with a hierarchic setup we will hopefully get the
+correct TCCL. The mem will get freed up lastest after the EAR
+gets undeployed anyway. Sparse re-deployments of portions of
+an EAR are not guaranteed to work by the EE spec neither.
+"
+735,ec592a45194c1a126d861514e453ac9b7de7c5be,6,14,14,"2013-06-23 18:14:20","review old TODOs and remove them if not valid anymore.
+"
+736,7fd2d861fe8ce8e51f32d79b5192b144eb2f68ea,6,14,14,"2013-07-22 17:16:13","DELTASPIKE-397 handle hashCode, etc on MessageBundles
+"
+737,6bb83374332a7506ecac4d688ea7f95db4aa8ee4,6,14,14,"2013-07-26 18:30:28","make sure our MessageBundle mesages are fully Serializable
+"
+738,cef50b097b3a9613534405f03c3b1e6aaa404f09,6,14,14,"2013-08-06 08:51:56","DELTASPIKE-398 add handling for @Dependent scoped beans.
+
+This is important as we need a way to properly destroy them.
+"
+739,744fa1046d5e930af976a313b02f427c4be6ac54,6,14,14,"2013-08-10 12:06:28","add comment about ALv2 license of this special hibernate part.
+"
+740,a421be8c740645d1c09402bdf94463b4319fcec1,6,14,14,"2013-08-10 14:15:01","DELTASPIKE-385 fix for getBeanManager for ClassLoaders which have not been used in Extension loading
+"
+741,170647869b279e735cefa4541d45510071989ac4,6,14,14,"2013-08-11 12:49:35","DELTASPIKE-401 change GlobalAlternativeTest to work w Weld and OWB
+"
+742,ea413ab4a18b4fdeb7e1166ee2e6edbdacf2b49c,6,14,14,"2013-08-11 21:12:55","DELTASPIKE-402 introduce a way to conditionally skip test based on cdi-container versions
+"
+743,ede53193d6eba06b1f3ee657cb5777f4ca2f8e76,6,14,14,"2013-08-12 15:10:26","DELTASPIKE-403 make MessageBundles PassivationCapable
+"
+744,ff62a1830a42026a2e6df146e6d91dd05f57af54,6,14,14,"2013-08-16 11:23:47","DELTASPIKE-402 use BeanProvider instead Instance<> to work around old OWB bug
+"
+745,258afc8c809f68bd1b530e115725e0bf511e02ca,6,14,14,"2013-08-16 23:06:16","DELTASPIKE-402 make DependentProvider Serializable (if possible)
+"
+746,b33e61cf7b3e2b2913062d7ff3c978ffadaca3c4,6,15,15,"2013-08-26 09:40:06","DELTASPIKE-402 cdicontainer.version for tomee via arquillian
+"
+747,878eab3a8ea7d76e0d0a2672882597e3a3dbeb78,6,15,15,"2013-08-28 11:54:58","DELTASPIKE-405 remove generics info from producer to match all injection points of this type
+"
+748,abccb450e65d2f38188911c4470a29240bb9292e,6,14,14,"2013-08-28 22:37:17","ignore log files
+"
+749,ce7f1b2f0c49c2c536f16595888caaf893108ee0,6,14,14,"2013-08-28 22:40:29","add small helper script to quickly verify most important scenarios
+"
+750,a37851c6aba102d30e6acc33ac5c2098af7ac3eb,6,14,14,"2013-08-28 22:41:25","DELTASPIKE-380 add javassist to @Deployment for some containers
+"
+751,5638a30b2ba14b9e590fa6f2d411a2810d23c21c,6,15,15,"2013-09-06 20:12:27","DELTASPIKE-405 revert back to <M>
+"
+752,53fbd0069652cfe101a2eba1c0f0849b35ff28c1,6,15,15,"2013-09-06 20:13:51","DELTASPIKE-60 minor JavaDoc tweaks
+"
+753,156c9987bf61d60b25226d08218bf26a766451de,6,15,15,"2013-09-08 11:33:10","add tail to show all build results
+"
+754,fac86445f596bd7d688b5a25ae1d61840bfd9ecb,6,14,14,"2013-09-08 23:01:46","fix broken unit test when testing remote containers
+"
+755,1e963ac59cfb9250c735d13ef5b9c9f8bb1a549c,6,14,14,"2013-09-08 23:27:51","add  jbosas-managed-7 profile in ds-data
+"
+756,f3554235b3abb5b5820b57f932398af5a8846b32,6,14,14,"2013-09-10 09:07:59","adding release notes draft for upcoming deltaspike-0.5 release
+"
+757,28ca1132b913ee33d9f62689c859d847862c32c5,6,14,14,"2013-09-11 13:18:02","DELTASPIKE-380 also add javassist in wildfly
+
+txs to jharting for the patch.
+"
+758,727e12953e677fff6c14729a91ccf7a409c43644,6,14,14,"2013-09-11 13:22:29","add resolved issues to our release notes
+"
+759,912a6da51150ae5feed29b6d2045bbe06329b009,6,14,14,"2013-09-11 13:34:55","enable autoversioning of our submodules
+
+this flag has the effect that you only get asked for the versions once
+and not for each sub-module over and over again.
+"
+760,dffe4faa12ef455d5eec4ee29cdec839e041914e,6,14,14,"2013-09-11 13:40:40","[maven-release-plugin] prepare release deltaspike-project-0.5
+"
+761,f8936831eb13d17932a7f871faba0acbdfeb14bf,6,14,14,"2013-09-11 13:40:40","[maven-release-plugin] prepare for next development iteration
+"
+762,403ce94258a696dbf8377f5318183abef8248b78,6,14,14,"2013-10-11 10:02:41","DELTASPIKE-425 DependentProvider#destroy() must not destroy NormalScoped beans
+"
+763,be37dc6b9553008527eb8dec55a0ba91a4606448,6,14,14,"2013-11-05 22:41:53","DELTASPIKE-441 default implementation of a simple SecurityViolation
+"
+764,4c410f32f951085a0f03d256649c833cd00996a6,6,14,14,"2013-11-19 19:59:14","DELTASPIKE-442 improve PersistenceConfigurationProvider
+
+also implement PropertyLoader (taken from Apache OpenWebBeans)
+and tweak it to take ProjectStage into account.
+"
+765,562412bb4e5a0fb370951e054562b07e333c6fee,6,14,14,"2013-11-22 15:19:38","DELTASPIKE-445 add a few other known project stage config locations
+"
+766,b1cdf8765d0d958217fe65568631c4be776eaaba,6,14,14,"2013-12-05 11:23:56","DELTASPIKE-458 lookup UserTransaction via @Resource
+
+Fallback to JNDI only if the injected UserTransaction
+is not available (null)
+"
+767,e62058be691ad452be79c96d0738207d34d55ea3,6,14,14,"2013-12-06 13:14:03","DELTASPIKE-462 don't close the EM if we didn't open it
+
+This happens when we use BeanManagedUserTransactionStrategy
+and have a Stateless EJB call our transactional CDI beans.
+"
+768,a34a8ed3eeb5f8e95ee9b4432ece9d25ad266525,6,14,14,"2014-01-21 17:55:50","DELTASPIKE-507 fallback to TransactionSynchronisationRegistry
+
+txs to sstrobl for the patch
+also big txs to dblevins for the hint to this hidden gem.
+"
+769,4399428cdc7b00fb60da7dcc1fdcf8c8ace049ed,6,14,14,"2014-04-11 08:32:15","add DOAP file for DeltaSpike
+"
+770,406913cbae58424fb289535ba002933b5576f75c,6,14,14,"2014-06-12 23:16:52","DELTASPIKE-610 remove ConfigurableDataSource
+"
+771,e698217a93e899e630cfef83124d727500735a8c,6,14,14,"2014-08-24 09:37:54","fix build of cdictrl-servlet for other profile containers.
+"
+772,50e3118098635261c57d3e959023e0c950fa8f09,6,14,14,"2014-08-24 14:51:08","add invocation for tomee-1.7.0
+"
+773,c32ece3060175565124ba73b8b54fea091803eec,6,14,14,"2014-10-01 18:06:08","fix JavaDoc - still did refer to old name of the class
+"
+774,3b0abce3ca9939dc953877cb06942bc716e82cfd,6,14,14,"2014-10-21 20:11:16","DELTASPIKE-745 add TCK test for parallel threads
+"
+775,8048657e265ab4f39b8b2e42425602bf151c7b91,6,14,14,"2014-10-22 01:15:06","DELTASPIKE-745 fix cdictrl-weld to be able to run on new Threads
+
+I also improved OWB ContextControl to behave the same as in weld
+"
+776,7a1c9837ef33b1a7ff3ac449c584f535f4c69857,6,14,14,"2014-10-29 18:39:35","DELTASPIKE-745 remove createContextControl and add more JavaDoc explaining the stateless nature of ContextControl
+"
+777,20195b7019544eb125aea42ee37b24e27307c528,2,16,17,"2009-07-09 01:30:36","gnome-keyring-1: Fix GNOME_KEYRING_ constant bindings
+
+Fixes bug 556632.
+"
+778,36cfc1272adb7973aeb7437ac689ff2168c9777d,2,16,17,"2009-07-09 03:19:18","glib-2.0: Add more GMarkup bindings
+
+Add g_markup_collect_attributes, g_markup_parser_context_push,
+g_markup_parser_context_pop, and GMarkupCollectType bindings,
+based on patch by Yu Feng, fixes bug 564704.
+"
+779,b6d76b58e7c83c88daa1f9a9092edecee4d61516,2,16,17,"2009-07-09 03:43:55","glib-2.0: Fix GIOFlags binding
+
+Prepend IS_ to IOFlags.READABLE, WRITEABLE, and SEEKABLE,
+fixes bug 567387.
+"
+780,ebf215032d5f169d684a1609a2d8705d61d4fb63,2,16,17,"2009-07-09 06:01:48","gdk-2.0: Fix gdk_property_change binding
+
+The data parameter to gdk_property_change should not include array
+length, fixes bug 583235.
+"
+781,d695188020c0db00e40f8c2fc3c9e52c7a9a3c1d,2,16,17,"2009-07-09 06:07:14","librsvg-2.0: rsvg_handle_new_from_data takes an array
+
+Fixes bug 583475.
+"
+782,ab23421d0b9e03a2bc5663f63d9c8626d1fdfd1a,2,16,17,"2009-07-09 05:56:20","gdk-2.0: Fix GdkNativeWindow binding
+
+Fixes bug 587157.
+"
+783,4800389bbf460f5df9eeaa271c078cc96871e6ce,2,16,17,"2009-07-07 00:06:46","pangocairo: Fix pango_cairo_create_* bindings
+
+pango_cairo_create_{context,layout} transfer ownership,
+fixes bug 587840.
+"
+784,0378304718afee5892e779df537a30bedf818206,2,16,17,"2009-07-08 21:26:23","Use (s)size_t instead of (u)long in several string methods
+
+Fixes bug 577352.
+"
+785,cbf015fc3fce478a794c1c2542633c11328c60f7,2,18,17,"2009-07-22 02:06:06","vapigen: Support overriding memory management functions in metadata
+
+Fixes bug 589307.
+"
+786,a7ebe99726abd3a2776bbbe74db6a39cbba89380,2,18,17,"2009-07-22 02:09:00","pango: Various PangoAttribute-related fixes
+
+Fixes bug 587645.
+"
+787,4ac95d127410491867918f690d06eb8bbd661f6d,2,18,17,"2009-07-21 23:29:11","vapigen: Make quotes around metadata arguments optional
+
+Fixes bug 588171.
+"
+788,c864fc71b7003018fcbda41a258e71e6ac626608,2,16,17,"2009-07-22 03:06:42","Make many copy methods transfer ownership
+
+Fixes bug 589309.
+"
+789,295301fef9500444e218a5bb5f7374c665cd7dd2,2,16,17,"2009-07-27 19:38:10","libusb: Numerous improvements to the API
+
+Fixes bug 589910.
+"
+790,011b77dfaeec9eb93e483ea54868d3567abff363,2,16,17,"2009-07-27 19:45:44","libftdi: Update to libftdi-0.16, adapt to libusb changes
+
+Fixes bug 589911.
+"
+791,6723b2640726bd3936d4c1825412a41c2c7b5cd5,2,16,17,"2009-07-27 19:56:52","Add libusb-1.0 bindings
+
+Fixes bug 589913.
+"
+792,54ee2e1dd4cb336a1a057e50717d95171f705c16,2,16,19,"2009-07-26 22:59:53","Make some functions which return Gtk.IconInfo transfer ownership
+
+Fixes bug #589530
+"
+793,fbee40cdf5483c5747e80f6661aeeda15d1725d4,2,16,17,"2009-08-01 17:44:45","Support [CCode (free_function_address_of = true)] attribute
+
+Fixes bug 589795.
+"
+794,0beaf21a12326edae32f256a2ff57c4684c2ad43,2,16,17,"2009-08-01 21:33:40","Fix bindings to use the new syntax for fixed-length arrays
+
+Fixes bug 590477.
+"
+795,8579b7b19462ffedc7bacd661e94189ebed6716c,2,16,17,"2009-08-02 23:40:16","posix: Add sync, fsync, and fdatasync bindings
+
+Fixes bug 590550.
+"
+796,c5d02f1f1ce78dfc02669225070867c44ff007d8,2,16,19,"2009-08-16 23:00:27","gtk+-2.0: Fix some GtkStatusIcon signals
+
+Fixes bug 590951.
+"
+797,90f3fc20181932474f371d143cf7b91755df53c4,2,16,19,"2009-08-18 11:56:34","posix: add gettimeofday() and settimeofday() bindings.
+
+Fixes bug 592189.
+"
+798,4e84348aaf487f1cf66decf129190cf5d70f24cd,2,16,17,"2009-08-30 18:47:48","glib-2.0: time_t does not have a type_id
+
+Fixes bug 587150.
+"
+799,f2757568dac2a6473f054101f80ac2b8f291ce4e,2,16,17,"2009-08-03 00:30:55","glib-2.0: add GLib.HashTable.foreach
+
+Fixes bug 577365.
+"
+800,dea843b4bfd870a1b06b6d59a056043eb98b4239,2,16,17,"2009-08-17 03:38:12","zlib: Many enhancements for memory/stream based operations
+
+Fixes bug 577804.
+"
+801,e8c08073d6046e6835dccb38d3fd461ad5c8aab2,2,16,17,"2009-08-03 00:21:42","libpanelapplet-2.0: Add PanelAppletOrient and some missing methods
+
+Fixes bug 590544.
+"
+802,8953b83cf53a0f5df5438a1c16fbefebc6f255b7,2,16,17,"2009-08-30 17:48:59","gtk+-2.0: Fix gtk_tree_view_get_columns binding
+
+TreeView.get_columns returns a GList of unowned GtkTreeViewColumn.
+
+Fixes bug 591191.
+"
+803,36bccdcdbaa4204d566fd23659945c6bdf39dc91,2,18,18,"2009-11-01 04:03:37","libgnome-2.0: Fix gnome_execute_* bindings.
+
+Fixes bug 599346.
+"
+804,170a87dc17ec80bf0f59f1c69566f38a3454a089,2,18,18,"2009-11-01 04:27:04","libosso: Use tabs instead of spaces, do not spread methods across multiple lines.
+"
+805,268e82fb1ce3ea6d2be1603887b0967ae6c99b3b,2,18,18,"2009-11-01 04:39:11","gdk-2.0: Fix Gdk.Device.get_axis binding.
+
+Fixes bug 598834.
+"
+806,801a8929f7733117b743f07cff91e2fd3c0ae709,2,18,18,"2009-11-01 22:37:14","libgdata: Fix query_all_albums, several type check functions, regenerate.
+
+Fixes bug 597191.
+"
+807,71030c22eec0bca2a2005e6c0a8ab33b8227bcf5,2,18,18,"2009-08-29 22:19:28","glib-2.0: replace many (u)long variables with (s)size_t and time_t
+
+Fixes bug 592188.
+"
+808,7c2af1692d5620a87a28c366f6d4328959efe867,2,18,18,"2009-11-10 21:56:32","Don't use ""using"" in *.vapi.
+
+Fixes bug 593195.
+"
+809,6b48b7e92e35bb87fae8c9c4ec1b7ccb93b812c2,2,18,18,"2009-11-11 00:52:38","Add ccss-1 and remove gl-1.0 from vapi/Makefile.am
+"
+810,a643c9371ee30576bba58a638240a4a935f15037,2,18,18,"2009-11-12 11:12:17","libgsf-1: Update to 1.14.16, regenerate.
+
+Partially fixes bug 600295.
+"
+811,a2b5f0064d19ebbce98f5a0d4dda05b43e7f1985,2,18,18,"2009-11-13 09:18:19","gtk+-2.0: make several Gtk.Entry.set_icon_* parameters nullable.
+
+Fixes bug 600597.
+"
+812,95889a88390af5e084bbf2330fe0d9a74c2e22ee,2,18,18,"2009-11-13 19:25:42","gtk+-2.0: Mark Gtk.Widget.can_focus as not having an accessor method,
+to preserve compatibility with GTK+ < 2.18.
+
+Fixes bug 601221.
+"
+813,0d23686628db2b14c32e31c8c05dfca8bd13e758,2,18,18,"2009-11-13 19:45:21","gtk+-2.0: Mark adjustment argument to GtkV/HScrollbar as nullable.
+
+Fixes bug 597622.
+"
+814,e5d7708ed79b27485880675438b715f46556133b,2,18,18,"2009-11-16 23:36:16","gdk-pixbuf-2.0: Allow Gdk.PixbufLoader.write to specify array length.
+
+Fixes bug 597870.
+"
+815,f780555c678c8d7e1febf893e18443a177ef947d,2,18,18,"2009-11-20 20:05:53","posix: Fix FILE bindings (copy from GLib.FileStream), and add popen.
+
+Fixes bug 595880.
+"
+816,a3197b7adb17b2591eac527a6b2b74065abc24cb,2,18,18,"2009-11-20 22:00:04","glib-2.0: Fix GLib.ValueArray.values binding.
+"
+817,da38f798be61e76209d2f941f77fa74b7154d85d,2,18,18,"2009-11-21 04:54:35","gtk+-2.0: nullability fixes for GtkToolButton and descendants.
+
+Fixes bug 602273.
+"
+818,0440bec1afd07286962aa706597e17e769687667,2,18,18,"2009-11-24 21:58:32","gtk+-2.0: Gtk.SelectionData.get_data does not return an array length.
+
+Fixes bug 602776.
+"
+819,738998f5ed6fa2420983318a48e6d544b0f50843,2,18,18,"2009-12-02 18:40:09","unique-1.0: update to unique-1.1.6.
+
+Fixes bug 603609.
+"
+820,d978605f090aea9683e0b3f167f64ec5f9f8ef32,2,18,18,"2009-12-02 21:50:06","clutter-1.0: Clutter.get_option_group* functions transfer ownership.
+
+Fixes bug 602688.
+"
+821,b8104230231cd9730666870a474db33d479f4b2a,2,18,18,"2009-12-02 22:55:55","Fix some typos in CCode attributes.
+"
+822,0c4e6010052a6e221cbb714dc445a925209a3822,2,18,18,"2009-12-03 18:52:12","gio-2.0: Fix many async functions which don't end in _async.
+
+Fixes bug 598657.
+"
+823,9796c5ce9370c297a72f66e18cac92e41292ee0f,2,18,18,"2009-12-19 18:58:17","gtk+-2.0: Fix Gtk.Notebook.switch_page signal binding.
+
+Fixes bug 604746.
+"
+824,528049f603b966ee478ee2a77a61871df3f685a4,2,18,18,"2009-12-19 19:03:17","gtk+-2.0: Gtk.get_current_event_state's argument should be out.
+
+Fixes bug 603751.
+"
+825,9b892c0de73f8185f6a05e3048886aeeb80a73db,2,18,18,"2009-12-19 21:46:07","gstreamer-controller-0.10: Fix Gst.LFOWaveform enum.
+
+Fixes bug 603725.
+"
+826,0c83b17741b4e4d5bf70db2995ad0e438f08fe81,2,18,18,"2009-12-19 21:56:13","gstreamer-0.10: Gst.Value.get/set_date expect a GLib.Date.
+
+Fixes bug 601766.
+"
+827,a7ca4b77a25ad60d6bbd4aa8840e4c961d6505e0,2,18,18,"2009-12-20 01:18:46","gio-2.0: Several ownership fixes, mostly in GResolver.
+
+Fixes bug 604969.
+"
+828,e6968289147f178d6ef8382f8fe4cc7c60fbc9ed,2,18,18,"2009-12-20 01:40:43","libsoup-2.4: Fix soup_message_headers_get_content_type binding.
+
+Fixes bug 604907.
+"
+829,2b8c3737f92748d65aa3ed84cd395fc761403594,2,18,18,"2009-12-20 01:51:44","cogl-1.0: Cogl.Texture.from_data data does not provide array length.
+
+Fixes bug 604108.
+"
+830,6aa05c5c31416274ea88ff8af7e62018d5069b9e,2,18,18,"2009-12-24 08:38:15","gstreamer-0.10: Add type_id for Gst.Structure.
+"
+831,4498389f1624392ff0f073a6e367e518cc9d42f0,2,18,18,"2010-01-13 10:43:37","gconf-2.0: several ownership and nullability fixes.
+
+Based on patch by Michal Hruby, fixes bug 605449.
+"
+832,91a826c0fac91512f97f9e9df58c4a61db3bb8e3,2,18,18,"2010-01-13 10:59:26","gio-2.0: argument to BufferedInputStream.peek_buffer should be out
+
+Fixes bug 606627.
+"
+833,e5ef89a6baff7b90f4707efa2c24cbde6563ec94,2,18,18,"2010-01-13 18:55:04","mysql: Fix mysql_init binding.
+
+Fixes bug 603085.
+"
+834,c447e0cf7766e1914296b648c56eb8d896eb0441,2,18,18,"2010-01-14 02:47:18","dbus-glib-1: Add bindings for DBusGProxy::destroy signal.
+"
+835,6ffe00e3fa8e1cad4e965d087ab1a9c312e1bd8f,2,18,18,"2010-01-25 10:07:03","libsoup-2.4: SoupMessageBody.data should be uing8[], not string.
+
+Fixes bug 605862.
+"
+836,9102b09aeca480dad12bf2edb56266b2d20ccbfb,2,18,18,"2010-01-25 10:15:32","gtk+-2.0: Gtk.MessageDialog:buttons does not have an accessor method
+
+Fixes bug 607992.
+"
+837,115c6c59f5fea078d2b3000e1eef035b5f47bfcd,2,18,17,"2009-12-20 06:58:36","vapigen: Add support for base types and ranks in structs
+
+Fixes bug 605039.
+"
+838,780ca0263ac1b5a564fc4cfef6e6b7a3969689e5,2,18,18,"2010-01-25 11:09:54","json-glib-1.0: always include json-glib.h
+
+Fixes bug 605924.
+"
+839,4617ba5d93275cafb34b8208ccea60b76576c191,2,18,18,"2010-01-25 21:03:10","gdk-2.0: Fix types of several Gdk.Event*.state fields
+
+Fixes bug 607337.
+"
+840,53283a16be694d75e4e0ae1f8eac1ab2918751a3,2,18,18,"2010-01-25 21:17:11","gtk+-2.0: Fix gtk_combo_box_set_row_separator_func binding
+
+Fixes bug 606919.
+"
+841,9a320a9a6d7b97c4205871ce80d8e4c6d1a377db,2,18,18,"2010-01-26 23:51:22","glib-2.0: revert previous patch against MarkupParser callbacks.
+
+The new version sacrificed usability for theoretical correctness, and
+was not well received.
+"
+842,59f1ae7b2b15776314059123e26dc1563ca064c8,2,18,18,"2010-01-27 09:30:06","tracker-indexer-module-1.0: regenerate
+"
+843,3f3ff95b46cb0ef97704396501b7c05b778cc448,2,18,18,"2010-01-31 21:48:19","cairo: Use closure param to ReadFunc and WriteFunc for delegate target
+"
+844,741dd3b80dc20cf513cf374ad938a1a4fe965887,2,18,18,"2010-01-31 21:51:19","Change many static delegates to has_target = false
+"
+845,9a987307f7158dcdfc6ffa23a2adda444dc00c8a,2,18,18,"2010-02-03 09:59:56","libsoup-2.4: nullability fixes for Soup.MessageHeaders methods
+
+Fixes bug 604907.
+"
+846,8d5d40e81131bc4deafd39c57874c840c37d26a4,2,18,18,"2010-02-12 10:33:05","Update delegate has_target syntax in *-custom.vala
+"
+847,1ec7b1afab5fd7c98cda53520c46eeec884fb672,2,18,18,"2010-02-08 21:08:21","gdk-2.0: update to 2.18.6
+
+Fixes bug 609293.
+"
+848,d008929c8439edf66bd9bb428201217304eacfea,2,18,18,"2010-02-14 19:17:18","libxml-2.0: Fix instance position in several methods
+
+Fixes bug 609814.
+"
+849,3dd6cff98aef81bb37caf686378a67981affdb72,2,18,18,"2010-02-19 03:32:00","glib-2.0: Make GLib.String.erase erase the entire string by default
+"
+850,4631ac5c89e34a3ac34568ca7faf6b4d91e9abb1,2,18,18,"2010-02-25 08:19:20","gio-unix-2.0: update to 2.22.4
+
+Fixes bug 610074.
+"
+851,b02878dd74fc120c8d96afdeb2cbcf73c7f73f6c,2,18,18,"2010-02-25 08:41:21","glib-2.0: locale arguments to KeyFile methods should be nullable
+
+Fixes bug 609145.
+"
+852,f88e8f45509c6eb7539bc13be8a500162bbb5cf2,2,18,17,"2010-02-18 09:40:36","vapigen: Add support for array_length_cname for fields
+"
+853,1986158eade1ae778b714a5f0f6d906d0ebc33b2,2,18,18,"2010-03-05 22:51:00","vapigen: fix changing the type_name of an array field via metadata
+"
+854,91e5978a787e5de226503731e8b7d5984a47785b,2,18,18,"2010-03-05 22:53:25","gstreamer-0.10: Clean up Gst.Buffer.data binding
+
+Fixes bug 610330.
+"
+855,d601eb65a29ff3cae3d23f8dcac401834b94e8e1,2,18,18,"2010-03-05 23:02:06","gio-2.0: nullability fixes for g_file_replace_contents
+
+Fixes bug 611282.
+"
+856,11cafee76142ef632d20bb71633bae5b980181bd,2,18,18,"2010-03-10 20:18:53","goocanvas: Correct cname of Goo.CanvasImage.create
+
+Fixes bug 612221.
+"
+857,fa34669d5ad46f7fedab76c0092a8a3491a9982e,2,18,18,"2010-03-10 20:53:30","libsoup-2.4: Make Soup.Session.queue_message callback nullable
+
+Fixes bug 612050.
+"
+858,1803fb26dffce892ca6fbf258970e56bed06b0dd,2,18,17,"2010-03-13 18:05:14","Support array_length_type for fields
+
+Fixes part of bug 529866.
+"
+859,a2483770055e4265683d9f7c165afb49ad9c2f95,2,18,18,"2010-03-13 23:53:23","sdl: Remove unnecessary argument to SDL.Key.get_keys
+"
+860,6645c9e63fe7d7a20a6b254bfec87a43a3d0ca85,2,18,18,"2010-03-14 00:51:22","gstreamer-netbuffer-0.10: Hide Gst.NetBufferClass
+"
+861,cbc2d9255c47b69299fc7a98dce22da90f9d4635,2,18,18,"2010-03-14 01:02:27","gstreamer-video-0.10: don't hide Gst.VideoFormat members
+"
+862,ce554e2810317d96078e68b4ab9379efe4c8db61,2,18,18,"2010-03-14 01:17:13","vapigen: Improve support for type_arguments
+
+Fixes bug 609693.
+"
+863,e948e9e92e5a88f165d35bfe2fb0fd19b04fd103,2,18,18,"2010-03-14 01:23:33","gtk+-2.0: Add many missing type arguments
+
+Partially fixes bug 609875.
+"
+864,d76b92301dc359a81820d383d8f0661fb3273168,2,18,18,"2010-03-14 02:28:19","gdk-2.0: Mark Gdk.Region.get_rectangles rectangles param as out
+
+Fixes bug 612632.
+"
+865,34cab689ebead817a7f6b960ef8fca91f4d0d1d1,2,18,18,"2010-03-14 03:50:41","gtk+-2.0: Fix several GtkIMContext-related bindings
+
+Fixes bug 611533.
+"
+866,d65ee9688799a2766e3121e779ff4fd17c48fe8a,2,18,18,"2010-03-14 04:21:19","gtk+-2.0: Make GtkContainer::set_focus_child's argument nullable
+
+Fixes bug 611492.
+"
+867,bdde8687937ef1ff16af3d8daa743cf75222cb51,2,18,18,"2010-03-14 04:51:12","gtk+-2.0: Hide many unwanted user data and destroy notify arguments
+
+Fixes bug 611021.
+"
+868,7ef5fea25942499209ed1f9d2f3739441146ecec,2,18,18,"2010-03-14 04:57:34","librsvg-2.0: Update to 2.26.0, remove librsvg-2.0-custom.vala
+"
+869,f00ea151341c3b7a481ed512e124349990fa8c15,2,18,18,"2010-03-14 05:12:03","libgnomeui-2.0: Update to 2.24.2.
+"
+870,20db7f59c9ae1d9ea157adacb91e73666e53f69b,2,18,18,"2010-03-14 06:25:30","json-glib-1.0: Use metadata instead of json-glib-1.0-custom.vala
+"
+871,0c260cdc75e73af8273bb31137547338a81d0941,2,18,18,"2010-03-14 20:34:01","glib-2.0: Use strtol instead of atol for string.to_long
+"
+872,bb5df67143fab06182097a0893a459aaa5f27ee5,2,18,18,"2010-03-14 21:48:05","Regenerate all bindings
+"
+873,afaa34702725d63d7a6cd89c0e5b2eb35a5be19e,2,18,18,"2010-03-14 20:35:29","Make all Literal constructors accept null SourceReferences
+"
+874,bcbeaad00f7482a18942f22579a4dda6b3588522,2,18,18,"2010-03-14 21:41:02","vapigen: Support default_value for arguments
+"
+875,c80b498367e99bae4ad7638e37874d5f58f7ea05,2,18,18,"2010-03-14 21:41:29","json-glib-1.0: Make json_parser_load_from_data.length default to -1
+
+Fixes bug 612601.
+"
+876,0b5aa15cb099f065e984b45b890351a7fe6d51f8,2,18,18,"2010-03-14 22:18:02","glib-2.0: GLib.static_assert returns void
+"
+877,9c1ca22c0afd498c86354983d1b0cdf6c3b58601,2,18,18,"2010-03-21 08:24:00","Do not use `weak' modifier in *-custom.vala where it is not applicable
+"
+878,2c95c42e94bb4cb51d2bc9e09f09686a6adf162d,2,18,18,"2010-03-21 08:55:02","libsoup-2.4: fix arguments to several methods which take delegates
+"
+879,cf335f0b692d46d3140bc9662792bbdb8f15c8a9,2,18,18,"2010-03-23 07:43:20","libxml-2.0: remove superfluous (and deprecated) static from delegates
+"
+880,86bc3602371c9c4d3e2078dbec1b3c6ec6d95c24,2,18,18,"2010-03-23 07:58:42","gudev-1.0: make GUdev.DeviceNumber inherit from Posix.dev_t
+"
+881,cae0958cd7928f5acdbb8ed83668c2c0820e2fec,2,18,18,"2010-03-23 08:09:51","gdk-2.0: GdkEvent* structs do not have a type id
+
+Fixes bug 585476.
+"
+882,2605dd2df038a6fbe297201dd21e0ec38f90d362,2,18,18,"2010-03-23 09:21:43","libgda-4.0: update to 4.0.8, regenerate
+"
+883,53f7a610d8872e6aa09c1586af659009e6758fc6,2,18,18,"2010-03-23 09:48:55","Add libgda-report-4.0 bindings, based on patch by Shawn Ferris
+
+Fixes bug 604208.
+"
+884,93fbeee2b06807a7190b82edb46db3f43f9b84bb,2,18,18,"2010-03-24 10:09:50","glib-2.0: add g_date_set_time_t binding
+"
+885,697192068a4c9f42e5e3b1b7bb6f2c389c389506,2,18,18,"2010-03-24 10:33:39","glib-2.0: add byte order swap macros
+
+Fixes bug 613473.
+"
+886,46ddb419b3f489372940bf50a2e299535c7475ec,2,18,18,"2010-03-25 07:47:41","vapigen: support no_array_length for delegate parameters
+"
+887,e25f5b51c796426f45c626de7487186ba64d1b9b,2,18,18,"2010-03-25 07:48:47","gdk-pixbuf-2.0: GdkPixbufDestroyNotify doesn't have a length parameter
+
+Fixes bug 613855.
+"
+888,28a4035f884b1de99d7d48ce4d08dcf89f84e3a2,2,18,18,"2010-03-27 03:03:07","gio-2.0: various ownership and type_arguments fixes for generics
+"
+889,8d6c881e5239e30a4e8d184ede2dd9ae5a439273,2,18,18,"2010-03-29 06:03:46","clutter-1.0: update to 1.2.4
+
+Fixes bug 614268.
+"
+890,0329f2fcc47c66251121fbc8c3dd47b1b146f240,2,18,18,"2010-04-02 03:07:51","fuse: fix reference to Posix.mode_t in Fuse.Create
+"
+891,208ea0a6b87fd52c4e8f7515af2f3546ff8758a5,2,18,18,"2010-04-02 03:20:39","libnl-2.0: add linux as a dependency
+"
+892,da957f9a45b98add085443da67593c01c0c63639,2,18,18,"2010-04-02 05:44:33","gstreamer-cdda,dataprotocol-0.10: fix some invalid enum values
+"
+893,b48b41f97dfc0c37251beb07b1924af593bba8e1,2,18,18,"2010-04-02 20:29:09","gsl: Do not use `weak' modifier where it is not applicable
+"
+894,198b4d0f2c3293b1a45f261c011fcf92543d4b15,2,18,18,"2010-04-02 20:41:49","vapigen: add support for member access based default values
+"
+895,1acdbae0b3796b43f5348ae826fd2ff1f36bc973,2,18,18,"2010-04-02 20:42:26","gtk+-2.0: Make Gtk.Window's arg default value Gtk.WindowType.TOPLEVEL
+"
+896,3cf09ec9a51263838270cb5f62d5b34cb58f26bb,2,18,18,"2010-04-02 22:04:14","clutter-1.0: add missing type_arguments for several new methods
+
+Partially fixes bug 609875.
+"
+897,8fbc82a7314ed46df0f9e2371f065ddfc0282c9a,2,18,18,"2010-04-02 22:46:28","gdk-2.0: add many missing type_arguments
+
+Partially fixes bug 609875.
+"
+898,acbf26e896a7586aa9b7f9240ba2213611371915,2,18,18,"2010-04-03 01:26:35","libsoup-2.4: add many missing type_arguments
+
+Partially fixes bug 609875.
+"
+899,7a5b4fb0d911a1e32a1dbf3a0431587836545be3,2,18,18,"2010-04-03 03:34:39","Add gdu and gdu-gtk bindings to the build system.
+"
+900,02db9ef2bafc87c1506e91457ed4e8368e94a76f,2,18,18,"2010-04-07 00:07:02","gtksourceview-2.0: update to 2.10.0
+"
+901,1c31074ed8a27a91cc794c5ebf26c64fcb0fda75,2,18,18,"2010-04-07 20:51:54","libsoup-2.4: update to 2.30.0
+
+Fixes bug 615047.
+"
+902,125562e7f4ee0b404f84491fffead5baaf9745ab,2,18,18,"2010-04-08 06:42:52","Make argument of NullType constructor nullable
+"
+903,ce5970c5bf7bf7925b0830054da067c1c89e7b0f,2,18,18,"2010-04-01 22:32:58","vapigen: fix a crash if type_name is used for pointer arguments
+
+Fixes bug 614348.
+"
+904,74b5e8ad3b43949f122e6430fe576ebdd44cf04a,2,18,18,"2010-04-08 10:50:02","vapigen: add support for type_parameters attribute
+"
+905,29735e041d02b03084c22e02f8d74e90b3902bf9,2,18,18,"2010-04-09 12:04:43","gstreamer-0.10: make GstIterator a generic
+"
+906,62add03a15bb9ba9eeb58c1de8a5c1a421ff068c,2,18,18,"2010-04-10 19:35:59","sqlite3: add binding for user defined function API
+"
+907,2bc4b792bc22fe387d00637ecdd1c78a8950d692,2,18,18,"2010-04-10 20:41:08","sqlite3: add wrapper methods for sqlite3_exec and sqlite3_get_table
+
+Fixes bug 579364.
+"
+908,c9f93205fe8332d7b47affd53ef856abff12d64c,2,18,18,"2010-04-10 20:51:21","gnome-vfs-2.0: fix ownership and type arguments on several methods
+"
+909,8e2825d4b810af42170b471359accd677872ed0e,2,18,18,"2010-04-15 02:11:56","vapigen: add support for type_arguments on signal parameters
+"
+910,90e32db5350223d59e68ae252a5580c40b926477,2,18,18,"2010-04-19 11:17:23","sqlite3: add many missing bindings
+"
+911,d01c679b68de847191b3f4592946eae9715a0136,2,18,18,"2010-04-19 11:19:55","glib-2.0: mark return value of GLib.MappedFile.get_contents as unowned
+"
+912,1f50c930bf8c6902c1eea447a88e5eb87e14442d,2,18,18,"2010-04-19 11:29:19","libxml-2.0: correct cname for Xml.Node.ns_def
+
+Fixes bug 616037.
+"
+913,a0a251e62e4abb8f0660e96c654c120506e54bd9,2,18,18,"2010-04-21 22:08:13","gtk+-2.0: expose Gtk.CellEditable.start_editing
+"
+914,4cb637b9768b3ba1bcfc55d317ca26401f7b9a95,2,18,18,"2010-04-22 08:08:27","gio-2.0: set default value of g_zlib_compressor_new.level to -1
+"
+915,0bcf0c77e82f8e7fd0905d0c3fe4cbabdf7ff888,2,18,18,"2010-04-26 01:13:52","gio-2.0: GLib.Converter.convert bytes_read and bytes_written are out
+"
+916,58cad7799654a6155914000934d50d850e303adf,2,18,18,"2010-04-26 01:15:07","mysql: mark Database.fetch_row as null terminated, several other fixes
+
+Fixes bug 615925.
+"
+917,42a5292e18eb62545b7186f95963d6bc9b330d38,2,18,18,"2010-04-26 01:47:35","clutter-1.0: fix Stage.read_pixels binding
+
+Fixes bug 616448.
+"
+918,4429d912da6ef5ee00cf8ffdd228b111a5aa88a1,2,18,18,"2010-04-27 00:04:34","gnutls: fix numerous errors preventing gnutls from being usable.
+"
+919,7aba22e37c306d3e53a3937827903796e808dd58,2,18,17,"2010-04-03 07:33:11","Support array_length_type for method parameters
+
+Fixes bug 529866.
+"
+920,36de13782eb7da2427b048bbead58e75acdfe256,2,18,18,"2010-04-28 02:29:09","atk: make Atk.State inherit from uint64
+
+Fixes bug 613949.
+"
+921,90deb516a68158f753312ce15273ed52f8eb398f,2,18,18,"2010-04-29 17:40:26","glib-2.0: set has_type_id = false for int16 and uint16
+"
+922,65991ccc26feda4b15faeb03707123b9795de1df,2,18,18,"2010-04-29 17:41:17","glib-2.0: add GLib.FileUtils.get/set_data methods
+"
+923,4392b61d4c96820571ccc1c2cb9914e18f4fd7e3,2,18,18,"2010-04-29 18:38:38","vapigen: support setting array_length_type for parameters
+"
+924,0784391f2ef571fd2a6e184d6b73eca75abec9ce,2,18,18,"2010-05-01 03:03:17","sqlite3: add methods to get the source of data in a query result
+"
+925,67e2f786527f8ccbecf9d83f0ba7c5856e2efbcd,2,18,18,"2010-05-01 06:36:17","glib-2.0: set default value of StringBuilder.truncate to 0
+"
+926,77048935bbd5ab61f9c3a7e05172c4f8e7fee326,2,18,18,"2010-05-05 01:48:28","sqlite3: add binding for sqlite3_update_hook
+"
+927,6ac5f539c682c974b12a8b3c6c7f9aad649125ad,2,18,18,"2010-05-03 03:20:46","gio-2.0: fix callbacks for sources created with Socket.create_source
+
+Fixes bug 617069.
+"
+928,61a020d24c35911fd8ac7b9a1e135bf930ddce45,2,18,18,"2010-05-05 01:59:30","glib-2.0: add binding for GLib.HashTable.lookup_extended
+
+Fixes bug 617358.
+"
+929,11500497c9cf49e36fa4fee2591940ed71a1d9e2,2,18,18,"2010-05-05 02:08:15","gdk-2.0: buf argument of gdk_draw_*_image doesn't have an array length
+
+Fixes bug 617534.
+"
+930,88a70199bfec4d92307bace5e569fd79faadd561,2,18,18,"2010-05-11 06:47:16","gstreamer-base-0.10: fix ownership of BaseTransform.transform_caps
+"
+931,7cac25d2c8d7809824d45bdefc1ad95124c21fb6,2,18,18,"2010-05-14 07:55:31","gtk+-2.0: make Gtk.AccelKey a struct
+
+Fixes bug 617963.
+"
+932,22b7e1b8fb3c0c7fc78decad7e918127ef32b43c,2,18,18,"2010-05-16 04:35:13","x11: fix type mismatch warning in X.Display.get_window_property
+
+Fixes bug 609561.
+"
+933,0cf58abd10726ce7a2d550c7a2779a9e1df61237,2,18,18,"2010-05-16 06:26:25","gnome-keyring-1: add missing type_arguments
+"
+934,9128e0560ea140c7f9375f047d53040117a77e91,2,18,18,"2010-05-16 06:50:18","gconf-2.0: add several missing type arguments, some ownership fixes
+"
+935,601b513c63b8d1a17601235122f6570e610cb8a4,2,18,18,"2010-05-16 07:35:03","libgda-4.0: fix vfunc names om Gda.DataModel and Gda.Lockable
+"
+936,977b2ffc1e7e8175d5c9f2d38a5515d078de148d,2,18,18,"2010-05-16 08:23:12","libgda-4.0: add many type_arguments, several other small fixes
+"
+937,8138205feb185e74592b9fd6d0da9b7b7272589d,2,18,18,"2010-05-16 23:34:45","glib-2.0: add g_qsort_with_data binding
+"
+938,baff44e6a0909998bb7b3fe78c49576803961115,2,18,18,"2010-05-17 08:20:17","rest-0.6: rename rest to rest-0.6, update to version 0.6.1
+"
+939,9b945a0d6290280b0ce7e4535fb0f305144cc5b3,2,18,18,"2010-05-20 00:56:33","gnutls: fix a couple cnames, and change a char* to a string
+"
+940,c7b8537c6d600a1ae25131a8c7a226e4cb9b3d24,2,18,18,"2010-05-21 08:18:57","glib-2.0: use g_strcmp0 instead of strcmp
+"
+941,da05ac3adba1223fadc8f898559a5ebd045f6f3e,2,18,18,"2010-05-21 08:37:14","gtk+-2.0: set default values for Gtk.Box.pack_start and end arguments
+"
+942,802b12feac01aee375f73227d2fad68c58152ab9,2,18,18,"2010-05-21 08:54:05","Add mx-1.0 bindings
+"
+943,ba7cd6426301af5e66f8537a4f1f1693bf192da1,2,18,18,"2010-05-22 20:27:18","glib-2.0: add GLib.IOChannel.win32_socket and win32_messages
+"
+944,c3885bf7e7db0720fa884618e5d8f60ce3a6ef9d,2,18,17,"2010-04-27 21:25:27","Do not add extra argument to unref functions
+
+Fixes bug 615481.
+"
+945,164faf62442d41b4a688689bb718f4c0be3705bd,2,18,17,"2010-04-14 09:33:12","Update documentation
+
+Fixes bug 615710.
+"
+946,1153de63158a534c230cb541ca3f74764aa0a50c,2,18,18,"2010-05-29 07:37:39","json-glib-1.0: hide user data arguments from two methods
+"
+947,8d5e90063e4adc55091d0c20cd41adc536cf438d,2,18,18,"2010-06-06 10:05:53","gio-2.0: return value of g_inet_address_to_bytes is an array
+"
+948,35160c865ffa47a2c1958cb682b0c38406d240e5,2,18,17,"2010-05-06 06:55:30","Never mark *_register_type functions as static
+
+*_register_type functions are called by the module init function,
+which might reside in a different file.
+
+Fixes bug 617850.
+"
+949,4ad749b715f91d48ed71c6be0fc4b66b24ab497e,2,18,18,"2010-06-11 06:35:42","gudev-1.0: fix Device.get_property_keys and Client.query_by_subsystem
+"
+950,9712fd59d05a636575303cecb4aaac62e2134f4d,2,18,17,"2010-06-11 07:56:51","Support simple generics for creation methods
+"
+951,a2c979388250683f8dc91c18db45d3a0a5b3b3e3,2,18,17,"2010-05-16 00:14:48","Add support for [Deprecated] attribute
+
+Fixes bug 614712.
+"
+952,2fb2383e5b878da9f3d800e492252115a76c387c,2,18,17,"2010-05-16 00:16:36","codegen: write G_GNUC_DEPRECATED in generated C where appropriate
+"
+953,9e7daeca5209937905d9541876c5785a86ead095,2,18,17,"2010-05-16 00:15:21","vapigen: Add support for deprecated metadata attributes
+"
+954,7023a531dffa5d167bada9a33b87e8dbd98dc628,2,18,18,"2010-05-21 10:04:48","girparser: improve support for generic type arguments
+"
+955,ffba491cadd4e1515d182dba92d1fadc4e94b15d,2,18,18,"2010-06-19 00:08:49","girparser: add special case for GPtrArray and GArray
+
+Fixes bug 618660.
+"
+956,1130e7a84731e32584db09b460f95bed474f7f85,2,18,18,"2010-06-18 21:45:00","girparser: handle scope=""async"" annotations
+
+Fixes bug 620387.
+"
+957,8ef67e8fbfbfc72605c7a2b45ba9ad82ccce7a15,2,18,18,"2010-06-19 00:25:56","clutter-1.0: Text.position_to_coords float params are out and nullable
+
+Fixes bug 621491.
+"
+958,a69be6ff2a02d1c1fb9f191c2c0dfd86dcfd3eef,2,18,18,"2010-06-20 21:31:26","zlib: add crc32 and adler32 to ZLib.Utility
+
+Fixes bug 622200.
+"
+959,a71d8de130a2bf90941566fcf2bc8b1804b96dee,2,18,18,"2010-06-20 22:06:58","gtk+-2.0, gtk+-3.0: fix return value of Gtk.AccelGroup.find
+
+Fixes bug 617963.
+"
+960,9c1cb931931a1044071de0f52f4467f3da830084,2,18,18,"2010-06-21 08:27:10","glib-2.0: add GenericArray.length, correct type for PtrArray.set_size
+"
+961,07842b163a84c993bd3518654e8302a46ded4dfc,2,18,17,"2010-03-31 20:50:51","vapigen: Hide async *_finish methods
+
+Fixes bug 614045.
+"
+962,589edc7aec4e95e8249f99dc703bb799203ac89f,2,18,17,"2010-04-10 02:20:08","Copy default_expression in FormalParameter.copy
+"
+963,fa9c04520d88cce7068ce84ddc539ad4b93ba045,2,18,17,"2010-06-28 21:40:53","gio-2.0: Add lots of default values, mostly for Cancellable parameters
+
+Fixes bug 613471.
+"
+964,cda87c7020bebd44018c627d3a5f01ebc856b38a,2,18,17,"2010-06-19 02:20:05","girparser: Use the same code for parsing callbacks as methods
+
+Fixes part of bug 621834.
+"
+965,b13dc6c7249e9d4a5c7f28b170212c79f2f7fa03,2,18,18,"2010-07-17 07:37:27","libsoup-2.4: fixes for SoupMessageBody.flatten and SoupLoggerPrinter
+"
+966,47a07ef2eeea11f0b7596da008fa61110be5994f,2,18,18,"2010-07-17 08:07:10","gio-2.0: Add ellipsis to GLib.Settings.get and GLib.Settings.set
+
+Fixes bug 623551.
+"
+967,23bfe3323f5e34ba5d4e7c9d1d600913908b1d9c,2,18,18,"2010-07-17 08:39:01","gtk+-2.0, gtk+-3.0: Make Gtk.Scale.add_mark's markup argument nullable
+
+Fixes bug 624442.
+"
+968,c6ca81851eab20a37ed69a8261372330b345c030,2,18,18,"2010-07-19 09:56:23","gtk+-2.0, gtk+-3.0: use delegates for relevant GClosure arguments
+
+Fixes bug 624481.
+"
+969,859d63dedffa54c64be5354d21dd494c07205ffa,2,18,18,"2010-07-19 10:19:15","gtksourceview-2.0: Make argument to gtk_source_buffer_new nullable
+
+Fixes bug 623517.
+"
+970,54d4dc626514f5c82f76c0ef6ff8967f6d3269c1,2,18,18,"2010-04-12 07:39:55","vapigen: do not remove all values from enums in custom.vala files
+"
